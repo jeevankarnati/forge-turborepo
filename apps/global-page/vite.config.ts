@@ -8,4 +8,11 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  build:{
+    outDir:"../main/build/global-page"
+  },
+  base: "",
+  server: {
+    port: 3000,
+  },
 })

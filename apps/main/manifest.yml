@@ -10,10 +10,26 @@ modules:
       handler: index.handler
 resources:
   - key: main
-    path: static/hello-world/build
+    path: build/global-page
+    tunnel:
+      port: 3000
 app:
   runtime:
     name: nodejs24.x
     memoryMB: 256
     architecture: arm64
   id: ari:cloud:ecosystem::app/2fe9600d-bff4-44a3-9e62-48758710e41e
+permissions:
+  scopes:
+    - storage:app
+    - read:jira-user
+    - manage:jira-configuration
+    - read:jira-work
+    - manage:jira-project
+    - write:jira-work
+  content:
+    styles:
+      - unsafe-inline
+    scripts:
+      - unsafe-inline
+      - unsafe-hashes

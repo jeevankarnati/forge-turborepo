@@ -4,11 +4,32 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".dist/**", ".build/**"]
+    },
+    "register": {
+      "dependsOn": ["^register"],
+      "cache": false,
+      "interactive": true,
+      "persistent": true
+    },
+    "deploy": {
+      "dependsOn": ["^deploy"],
+      "cache": false,
     },
     "dev": {
       "cache": false,
+      "persistent": true
+    },
+    "install": {
+      "dependsOn": ["^install"],
+      "cache": false,
+      "interactive": true,
+      "persistent": true
+    },
+    "install:upgrade": {
+      "dependsOn": ["^install:upgrade"],
+      "cache": false,
+      "interactive": true,
       "persistent": true
     }
   }

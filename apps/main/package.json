@@ -5,7 +5,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "forge tunnel"
+    "dev": "forge tunnel",
+    "register": "forge register",
+    "deploy": "forge deploy",
+    "install": "forge install",
+    "install:upgrade": "forge install --upgrade"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
