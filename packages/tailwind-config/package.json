@@ -7,7 +7,14 @@
   "exports": {
     ".": "./global.css"
   },
+  "scripts": {
+    "generate:tokens": "bun run ./token-script.ts"
+  },
   "dependencies": {
     "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@atlaskit/tokens": "^11.4.0",
+    "@types/node": "^24.12.0"
   }
 }
