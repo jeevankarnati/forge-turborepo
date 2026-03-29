@@ -1,9 +1,9 @@
 function App() {
   return (
-    <div style={{padding:"20px"}}>
+    <div style={{ padding: "20px" }}>
       <h1>Hello World</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

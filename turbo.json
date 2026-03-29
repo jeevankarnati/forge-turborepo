@@ -14,23 +14,36 @@
     },
     "deploy": {
       "dependsOn": ["^deploy"],
-      "cache": false,
+      "cache": false
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
-    "install": {
-      "dependsOn": ["^install"],
+    "forge-install": {
+      "dependsOn": ["^forge-install"],
       "cache": false,
       "interactive": true,
       "persistent": true
     },
-    "install:upgrade": {
-      "dependsOn": ["^install:upgrade"],
+    "forge-install:upgrade": {
+      "dependsOn": ["^forge-install:upgrade"],
       "cache": false,
       "interactive": true,
       "persistent": true
+    },
+    "//#quality": {},
+    "//#quality:fix": {
+      "cache": false
+    },
+    "//#lint": {},
+    "//#lint:fix": {
+      "cache": false
+    },
+    "//#format": {},
+    "//#format:fix": {
+      "dependsOn": ["//#lint:fix"],
+      "cache": false
     }
   }
 }

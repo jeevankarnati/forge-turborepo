@@ -1,21 +1,21 @@
 {
   "name": "jira-global-page-custom-ui",
   "version": "1.1.17",
-  "main": "index.js",
-  "license": "MIT",
   "private": true,
+  "license": "MIT",
+  "main": "index.js",
   "scripts": {
-    "dev": "forge tunnel",
-    "register": "forge register",
     "deploy": "forge deploy",
-    "install": "forge install",
-    "install:upgrade": "forge install --upgrade"
+    "dev": "forge tunnel",
+    "forge-install": "forge install",
+    "forge-install:upgrade": "forge install --upgrade",
+    "register": "forge register"
+  },
+  "dependencies": {
+    "@forge/resolver": "1.7.1"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0"
-  },
-  "dependencies": {
-    "@forge/resolver": "1.7.1"
   }
 }
