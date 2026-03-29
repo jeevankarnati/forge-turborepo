@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
+    "@repo/typescript-config": "*",
     "@rolldown/plugin-babel": "^0.2.1",
     "@types/babel__core": "^7.20.5",
     "@types/node": "^24.12.0",
