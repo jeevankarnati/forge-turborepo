@@ -1,0 +1,19 @@
+modules:
+  jira:globalPage:
+    - key: version-2-forge-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: version-2-forge
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  runtime:
+    name: nodejs24.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/2fe9600d-bff4-44a3-9e62-48758710e41e
