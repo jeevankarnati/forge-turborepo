@@ -8,17 +8,17 @@
   "type": "module",
   "scripts": {
     "build": "turbo run build",
-    "deploy": "turbo run deploy",
     "dev": "turbo run dev",
+    "forge-deploy": "turbo run forge-deploy",
     "forge-install": "turbo run forge-install",
     "forge-install:upgrade": "turbo run forge-install:upgrade",
+    "forge-register": "turbo run forge-register",
     "format": "oxfmt --check",
     "format:fix": "oxfmt .",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
     "quality": "bun run lint && bun run format",
-    "quality:fix": "bun run lint:fix && bun run format:fix",
-    "register": "turbo run register"
+    "quality:fix": "bun run lint:fix && bun run format:fix"
   },
   "devDependencies": {
     "eslint-plugin-check-file": "^3.3.1",

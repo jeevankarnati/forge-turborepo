@@ -5,11 +5,11 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "deploy": "forge deploy",
     "dev": "forge tunnel",
+    "forge-deploy": "forge deploy",
     "forge-install": "forge install",
     "forge-install:upgrade": "forge install --upgrade",
-    "register": "forge register"
+    "forge-register": "forge register"
   },
   "dependencies": {
     "@forge/resolver": "1.7.1"
