@@ -18,7 +18,7 @@ export default defineConfig({
     ],
   },
   sortTailwindcss: {
-    stylesheet: "./apps/global-page/src/index.css",
+    stylesheet: "./packages/tailwind-config/global.css",
     functions: ["clsx", "cn"],
     preserveWhitespace: false,
   },
