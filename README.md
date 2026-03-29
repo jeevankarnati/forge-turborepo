@@ -1,159 +1,133 @@
-# Turborepo starter
+# forge-turborepo
 
-This Turborepo starter is maintained by the Turborepo core team.
+Monorepo for an [Atlassian Forge](https://developer.atlassian.com/platform/forge/) Jira app with a **global page** UI: React (Vite) on the client, **tRPC** over the Forge UI bridge on the server. Managed with [Bun](https://bun.sh) workspaces and [Turborepo](https://turbo.build).
 
-## Using this example
+## Prerequisites
 
-Run the following command:
+- [Node.js](https://nodejs.org/) 18 or newer
+- [Bun](https://bun.sh) 1.3.11 (see `packageManager` in the root `package.json`)
+- [Forge CLI](https://developer.atlassian.com/platform/forge/cli-reference/) and an Atlassian developer account for deploy and install
 
-```sh
-npx create-turbo@latest
-```
+## Repository layout
 
-## What's inside?
+| Area | Description |
+| --- | --- |
+| **Tooling** | Bun, Turborepo, TypeScript 5.9 |
+| **`apps/main`** | Forge app: manifest, resolver, tRPC router (`nodejs24.x`). No `build` script; static UI is built elsewhere. |
+| **`apps/global-page`** | Vite 8 + React 19 + Tailwind 4. Builds into `apps/main/build/global-page`. Dev server uses port **3000** to match the Forge tunnel in `manifest.yml`. |
+| **`@repo/typescript-config`** | Shared `tsconfig` presets |
+| **`@repo/tailwind-config`** | Shared Tailwind / Atlaskit-oriented CSS (`bun run generate:atlaskit-css` at the root regenerates token-related CSS) |
+| **`@repo/trpc-react`** | tRPC React client, TanStack Query, and `@toolsplus/forge-trpc-link` for the UI |
+| **`@repo/ui`** | Shared React UI package |
 
-This Turborepo includes the following packages/apps:
+The server exposes tRPC via `@toolsplus/forge-trpc-adapter` with resolver function key **`trpc-forge-turborepo`**. The client in `@repo/trpc-react` must use the same key.
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+## Install
 
 ```sh
-cd my-turborepo
-turbo build
+bun install
 ```
 
-Without global `turbo`, use your package manager:
+This repo’s `.gitignore` excludes `bun.lock`. Commit a lockfile if your team wants fully reproducible installs across machines.
+
+## First-time setup
+
+After `bun install`, run these from the repository root in order:
+
+1. **`bun run forge:register`** — register a Forge app (updates `apps/main` for your account). Skip this if the app is already registered and [`manifest.yml`](apps/main/manifest.yml) is correct for your environment.
+2. **`bun run build`** — build the global-page frontend into `apps/main/build/global-page`.
+3. **`bun run forge:deploy`** — deploy the app to Forge.
+4. **`bun run forge:install`** — install the app on your Atlassian site.
+
+After that, use **`bun run dev`** for day-to-day development (tunnel + Vite).
+
+## Development
+
+From the repository root:
 
 ```sh
-cd my-turborepo
-npx turbo build
-yarn dlx turbo build
-pnpm exec turbo build
+bun run dev
 ```
 
-You can build a specific package by using a [filter](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters):
+This runs `turbo run dev`, which starts **`forge tunnel`** in `apps/main` and the **Vite** dev server in `apps/global-page` (port 3000, aligned with `apps/main/manifest.yml` tunnel settings). Use this once the app is installed on a site (see [First-time setup](#first-time-setup)).
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
+To run only the Forge tunnel:
 
 ```sh
-turbo build --filter=docs
+bun run dev --filter=main
 ```
 
-Without global `turbo`:
+To run only the Vite app:
 
 ```sh
-npx turbo build --filter=docs
-yarn exec turbo build --filter=docs
-pnpm exec turbo build --filter=docs
+bun run dev --filter=global-page
 ```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
+## Build
 
 ```sh
-cd my-turborepo
-turbo dev
+bun run build
 ```
 
-Without global `turbo`, use your package manager:
+Only workspaces that define a `build` script run (currently **`global-page`**: `tsc -b && vite build`). Output is written to **`apps/main/build/global-page`**, which Forge serves as the global page resource.
 
-```sh
-cd my-turborepo
-npx turbo dev
-yarn exec turbo dev
-pnpm exec turbo dev
+Run `bun run build` before each deploy when the UI changes (see [First-time setup](#first-time-setup) for the full sequence).
+
+## Forge deploy and install
+
+From the root, these run Forge commands inside `apps/main`:
+
+| Script | Command |
+| --- | --- |
+| `bun run forge:deploy` | `forge deploy` |
+| `bun run forge:install` | `forge install` |
+| `bun run forge:register` | `forge register` (new app registration) |
+| `bun run forge:upgrade` | `forge install --upgrade` |
+
+For a fresh clone, follow [First-time setup](#first-time-setup). After code changes, run `bun run build` then `bun run forge:deploy`; use `forge:install` when adding the app to a new site.
+
+## Code quality
+
+| Script | Purpose |
+| --- | --- |
+| `bun run lint` / `bun run lint:fix` | [oxlint](https://oxc.rs/docs/guide/usage/linter) with `oxlint.config.ts` |
+| `bun run format` / `bun run format:fix` | [oxfmt](https://oxc.rs/docs/guide/usage/formatter) check or write |
+| `bun run quality` / `bun run quality:fix` | Lint + format |
+
+Git **pre-commit** (Husky) runs `bun run lint`.
+
+## Architecture
+
+```mermaid
+flowchart LR
+  viteDev["global-page Vite :3000"]
+  forgeTunnel["Forge tunnel"]
+  jiraPage["Jira global page UI"]
+  forgeBridge["Forge UI bridge"]
+  resolverFn["Resolver handler"]
+  trpcRouter["tRPC router"]
+
+  viteDev --> forgeTunnel
+  forgeTunnel --> jiraPage
+  jiraPage --> forgeBridge
+  forgeBridge --> resolverFn
+  resolverFn --> trpcRouter
 ```
 
-You can develop a specific package by using a [filter](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters):
+The global page loads the bundled UI. Browser-side tRPC calls go through the Forge bridge to the resolver in `apps/main`, which executes the tRPC router (`apps/main/src/routers`).
 
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
+## Extending the API
 
-```sh
-turbo dev --filter=web
-```
+1. Add procedures to `apps/main/src/routers/index.ts` (and split into modules if needed).
+2. Export `TrpcRouter` from that router; `packages/trpc-react/types/global.d.ts` maps it to the global `AppRouter` type used by the client. If you move the router file, update that import path.
 
-Without global `turbo`:
+Optional server-side Jira access uses `@narthia/jira-client` (see `apps/main/src/rest/jira-client.ts`).
 
-```sh
-npx turbo dev --filter=web
-yarn exec turbo dev --filter=web
-pnpm exec turbo dev --filter=web
-```
+## New apps and `manifest.yml`
 
-### Remote Caching
+`apps/main/manifest.yml` includes an `app.id` and permission scopes. For a **new** Forge app, run `bun run forge:register` as in [First-time setup](#first-time-setup), then ensure **`app.id`**, **scopes**, and **resources** match the product and site you target. Forks should replace the bundled app id with their own.
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+## Further reading
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.dev/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed (recommended):
-
-```sh
-cd my-turborepo
-turbo login
-```
-
-Without global `turbo`, use your package manager:
-
-```sh
-cd my-turborepo
-npx turbo login
-yarn exec turbo login
-pnpm exec turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-With [global `turbo`](https://turborepo.dev/docs/getting-started/installation#global-installation) installed:
-
-```sh
-turbo link
-```
-
-Without global `turbo`:
-
-```sh
-npx turbo link
-yarn exec turbo link
-pnpm exec turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turborepo.dev/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.dev/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.dev/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.dev/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.dev/docs/reference/configuration)
-- [CLI Usage](https://turborepo.dev/docs/reference/command-line-reference)
+- [Forge documentation](https://developer.atlassian.com/platform/forge/)
+- [Turborepo: running tasks and filters](https://turbo.build/docs/crafting-your-repository/running-tasks)
