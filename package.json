@@ -17,11 +17,13 @@
     "format:fix": "oxfmt .",
     "lint": "oxlint .",
     "lint:fix": "oxlint --fix .",
+    "prepare": "husky",
     "quality": "bun run lint && bun run format",
     "quality:fix": "bun run lint:fix && bun run format:fix"
   },
   "devDependencies": {
     "eslint-plugin-check-file": "^3.3.1",
+    "husky": "^9.1.7",
     "oxfmt": "^0.42.0",
     "oxlint": "^1.57.0",
     "oxlint-tsgolint": "^0.18.1",
