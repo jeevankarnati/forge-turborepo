@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+@layer base {
+  body {
+    background-color: var(--ds-surface, #fff);
+    color: var(--ds-text, #172b4d);
+    font: var(
+      --ds-font-body,
+      normal 400 14px/1.42857142857143 -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Fira Sans",
+      "Droid Sans",
+      "Helvetica Neue",
+      sans-serif
+    );
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    text-decoration-skip-ink: auto;
+  }
+}
+
 /* <token-theme:start> */
 @theme {
   --color-ad-background-accent-blue-bolder: var(--ds-background-accent-blue-bolder);

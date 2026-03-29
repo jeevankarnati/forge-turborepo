@@ -5,14 +5,11 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "forge tunnel",
-    "forge-deploy": "forge deploy",
-    "forge-install": "forge install",
-    "forge-install:upgrade": "forge install --upgrade",
-    "forge-register": "forge register"
+    "dev": "forge tunnel"
   },
   "dependencies": {
-    "@forge/resolver": "1.7.1"
+    "@forge/resolver": "1.7.1",
+    "@narthia/jira-client": "^0.4.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

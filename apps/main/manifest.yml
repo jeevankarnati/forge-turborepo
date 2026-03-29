@@ -1,15 +1,16 @@
 modules:
   jira:globalPage:
-    - key: version-2-forge-hello-world-page
-      resource: main
+    - key: global-page
+      resource: global-page-resource
       resolver:
         function: resolver
-      title: version-2-forge
+      title: Global Page
+      layout: blank
   function:
     - key: resolver
       handler: index.handler
 resources:
-  - key: main
+  - key: global-page-resource
     path: build/global-page
     tunnel:
       port: 3000
