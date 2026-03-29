@@ -8,7 +8,7 @@
     ".": "./global.css"
   },
   "scripts": {
-    "generate:tokens": "bun run ./token-script.ts"
+    "generate:atlaskit-css": "bun run ./token-script.ts"
   },
   "dependencies": {
     "tailwindcss": "^4.2.2"

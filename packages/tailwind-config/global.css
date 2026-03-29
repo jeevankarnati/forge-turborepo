@@ -2,585 +2,555 @@
 
 /* <token-theme:start> */
 @theme {
-  --border-width: var(--ds-border-width);
-  --border-width-focused: var(--ds-border-width-focused);
-  --border-width-selected: var(--ds-border-width-selected);
-  --color-background-accent-blue-bolder: var(--ds-background-accent-blue-bolder);
-  --color-background-accent-blue-bolder-hovered: var(--ds-background-accent-blue-bolder-hovered);
-  --color-background-accent-blue-bolder-pressed: var(--ds-background-accent-blue-bolder-pressed);
-  --color-background-accent-blue-subtle: var(--ds-background-accent-blue-subtle);
-  --color-background-accent-blue-subtle-hovered: var(--ds-background-accent-blue-subtle-hovered);
-  --color-background-accent-blue-subtle-pressed: var(--ds-background-accent-blue-subtle-pressed);
-  --color-background-accent-blue-subtler: var(--ds-background-accent-blue-subtler);
-  --color-background-accent-blue-subtler-hovered: var(--ds-background-accent-blue-subtler-hovered);
-  --color-background-accent-blue-subtler-pressed: var(--ds-background-accent-blue-subtler-pressed);
-  --color-background-accent-blue-subtlest: var(--ds-background-accent-blue-subtlest);
-  --color-background-accent-blue-subtlest-hovered: var(
+  --color-ad-background-accent-blue-bolder: var(--ds-background-accent-blue-bolder);
+  --color-ad-background-accent-blue-bolder-hovered: var(--ds-background-accent-blue-bolder-hovered);
+  --color-ad-background-accent-blue-bolder-pressed: var(--ds-background-accent-blue-bolder-pressed);
+  --color-ad-background-accent-blue-subtle: var(--ds-background-accent-blue-subtle);
+  --color-ad-background-accent-blue-subtle-hovered: var(--ds-background-accent-blue-subtle-hovered);
+  --color-ad-background-accent-blue-subtle-pressed: var(--ds-background-accent-blue-subtle-pressed);
+  --color-ad-background-accent-blue-subtler: var(--ds-background-accent-blue-subtler);
+  --color-ad-background-accent-blue-subtler-hovered: var(
+    --ds-background-accent-blue-subtler-hovered
+  );
+  --color-ad-background-accent-blue-subtler-pressed: var(
+    --ds-background-accent-blue-subtler-pressed
+  );
+  --color-ad-background-accent-blue-subtlest: var(--ds-background-accent-blue-subtlest);
+  --color-ad-background-accent-blue-subtlest-hovered: var(
     --ds-background-accent-blue-subtlest-hovered
   );
-  --color-background-accent-blue-subtlest-pressed: var(
+  --color-ad-background-accent-blue-subtlest-pressed: var(
     --ds-background-accent-blue-subtlest-pressed
   );
-  --color-background-accent-gray-bolder: var(--ds-background-accent-gray-bolder);
-  --color-background-accent-gray-bolder-hovered: var(--ds-background-accent-gray-bolder-hovered);
-  --color-background-accent-gray-bolder-pressed: var(--ds-background-accent-gray-bolder-pressed);
-  --color-background-accent-gray-subtle: var(--ds-background-accent-gray-subtle);
-  --color-background-accent-gray-subtle-hovered: var(--ds-background-accent-gray-subtle-hovered);
-  --color-background-accent-gray-subtle-pressed: var(--ds-background-accent-gray-subtle-pressed);
-  --color-background-accent-gray-subtler: var(--ds-background-accent-gray-subtler);
-  --color-background-accent-gray-subtler-hovered: var(--ds-background-accent-gray-subtler-hovered);
-  --color-background-accent-gray-subtler-pressed: var(--ds-background-accent-gray-subtler-pressed);
-  --color-background-accent-gray-subtlest: var(--ds-background-accent-gray-subtlest);
-  --color-background-accent-gray-subtlest-hovered: var(
+  --color-ad-background-accent-gray-bolder: var(--ds-background-accent-gray-bolder);
+  --color-ad-background-accent-gray-bolder-hovered: var(--ds-background-accent-gray-bolder-hovered);
+  --color-ad-background-accent-gray-bolder-pressed: var(--ds-background-accent-gray-bolder-pressed);
+  --color-ad-background-accent-gray-subtle: var(--ds-background-accent-gray-subtle);
+  --color-ad-background-accent-gray-subtle-hovered: var(--ds-background-accent-gray-subtle-hovered);
+  --color-ad-background-accent-gray-subtle-pressed: var(--ds-background-accent-gray-subtle-pressed);
+  --color-ad-background-accent-gray-subtler: var(--ds-background-accent-gray-subtler);
+  --color-ad-background-accent-gray-subtler-hovered: var(
+    --ds-background-accent-gray-subtler-hovered
+  );
+  --color-ad-background-accent-gray-subtler-pressed: var(
+    --ds-background-accent-gray-subtler-pressed
+  );
+  --color-ad-background-accent-gray-subtlest: var(--ds-background-accent-gray-subtlest);
+  --color-ad-background-accent-gray-subtlest-hovered: var(
     --ds-background-accent-gray-subtlest-hovered
   );
-  --color-background-accent-gray-subtlest-pressed: var(
+  --color-ad-background-accent-gray-subtlest-pressed: var(
     --ds-background-accent-gray-subtlest-pressed
   );
-  --color-background-accent-green-bolder: var(--ds-background-accent-green-bolder);
-  --color-background-accent-green-bolder-hovered: var(--ds-background-accent-green-bolder-hovered);
-  --color-background-accent-green-bolder-pressed: var(--ds-background-accent-green-bolder-pressed);
-  --color-background-accent-green-subtle: var(--ds-background-accent-green-subtle);
-  --color-background-accent-green-subtle-hovered: var(--ds-background-accent-green-subtle-hovered);
-  --color-background-accent-green-subtle-pressed: var(--ds-background-accent-green-subtle-pressed);
-  --color-background-accent-green-subtler: var(--ds-background-accent-green-subtler);
-  --color-background-accent-green-subtler-hovered: var(
+  --color-ad-background-accent-green-bolder: var(--ds-background-accent-green-bolder);
+  --color-ad-background-accent-green-bolder-hovered: var(
+    --ds-background-accent-green-bolder-hovered
+  );
+  --color-ad-background-accent-green-bolder-pressed: var(
+    --ds-background-accent-green-bolder-pressed
+  );
+  --color-ad-background-accent-green-subtle: var(--ds-background-accent-green-subtle);
+  --color-ad-background-accent-green-subtle-hovered: var(
+    --ds-background-accent-green-subtle-hovered
+  );
+  --color-ad-background-accent-green-subtle-pressed: var(
+    --ds-background-accent-green-subtle-pressed
+  );
+  --color-ad-background-accent-green-subtler: var(--ds-background-accent-green-subtler);
+  --color-ad-background-accent-green-subtler-hovered: var(
     --ds-background-accent-green-subtler-hovered
   );
-  --color-background-accent-green-subtler-pressed: var(
+  --color-ad-background-accent-green-subtler-pressed: var(
     --ds-background-accent-green-subtler-pressed
   );
-  --color-background-accent-green-subtlest: var(--ds-background-accent-green-subtlest);
-  --color-background-accent-green-subtlest-hovered: var(
+  --color-ad-background-accent-green-subtlest: var(--ds-background-accent-green-subtlest);
+  --color-ad-background-accent-green-subtlest-hovered: var(
     --ds-background-accent-green-subtlest-hovered
   );
-  --color-background-accent-green-subtlest-pressed: var(
+  --color-ad-background-accent-green-subtlest-pressed: var(
     --ds-background-accent-green-subtlest-pressed
   );
-  --color-background-accent-lime-bolder: var(--ds-background-accent-lime-bolder);
-  --color-background-accent-lime-bolder-hovered: var(--ds-background-accent-lime-bolder-hovered);
-  --color-background-accent-lime-bolder-pressed: var(--ds-background-accent-lime-bolder-pressed);
-  --color-background-accent-lime-subtle: var(--ds-background-accent-lime-subtle);
-  --color-background-accent-lime-subtle-hovered: var(--ds-background-accent-lime-subtle-hovered);
-  --color-background-accent-lime-subtle-pressed: var(--ds-background-accent-lime-subtle-pressed);
-  --color-background-accent-lime-subtler: var(--ds-background-accent-lime-subtler);
-  --color-background-accent-lime-subtler-hovered: var(--ds-background-accent-lime-subtler-hovered);
-  --color-background-accent-lime-subtler-pressed: var(--ds-background-accent-lime-subtler-pressed);
-  --color-background-accent-lime-subtlest: var(--ds-background-accent-lime-subtlest);
-  --color-background-accent-lime-subtlest-hovered: var(
+  --color-ad-background-accent-lime-bolder: var(--ds-background-accent-lime-bolder);
+  --color-ad-background-accent-lime-bolder-hovered: var(--ds-background-accent-lime-bolder-hovered);
+  --color-ad-background-accent-lime-bolder-pressed: var(--ds-background-accent-lime-bolder-pressed);
+  --color-ad-background-accent-lime-subtle: var(--ds-background-accent-lime-subtle);
+  --color-ad-background-accent-lime-subtle-hovered: var(--ds-background-accent-lime-subtle-hovered);
+  --color-ad-background-accent-lime-subtle-pressed: var(--ds-background-accent-lime-subtle-pressed);
+  --color-ad-background-accent-lime-subtler: var(--ds-background-accent-lime-subtler);
+  --color-ad-background-accent-lime-subtler-hovered: var(
+    --ds-background-accent-lime-subtler-hovered
+  );
+  --color-ad-background-accent-lime-subtler-pressed: var(
+    --ds-background-accent-lime-subtler-pressed
+  );
+  --color-ad-background-accent-lime-subtlest: var(--ds-background-accent-lime-subtlest);
+  --color-ad-background-accent-lime-subtlest-hovered: var(
     --ds-background-accent-lime-subtlest-hovered
   );
-  --color-background-accent-lime-subtlest-pressed: var(
+  --color-ad-background-accent-lime-subtlest-pressed: var(
     --ds-background-accent-lime-subtlest-pressed
   );
-  --color-background-accent-magenta-bolder: var(--ds-background-accent-magenta-bolder);
-  --color-background-accent-magenta-bolder-hovered: var(
+  --color-ad-background-accent-magenta-bolder: var(--ds-background-accent-magenta-bolder);
+  --color-ad-background-accent-magenta-bolder-hovered: var(
     --ds-background-accent-magenta-bolder-hovered
   );
-  --color-background-accent-magenta-bolder-pressed: var(
+  --color-ad-background-accent-magenta-bolder-pressed: var(
     --ds-background-accent-magenta-bolder-pressed
   );
-  --color-background-accent-magenta-subtle: var(--ds-background-accent-magenta-subtle);
-  --color-background-accent-magenta-subtle-hovered: var(
+  --color-ad-background-accent-magenta-subtle: var(--ds-background-accent-magenta-subtle);
+  --color-ad-background-accent-magenta-subtle-hovered: var(
     --ds-background-accent-magenta-subtle-hovered
   );
-  --color-background-accent-magenta-subtle-pressed: var(
+  --color-ad-background-accent-magenta-subtle-pressed: var(
     --ds-background-accent-magenta-subtle-pressed
   );
-  --color-background-accent-magenta-subtler: var(--ds-background-accent-magenta-subtler);
-  --color-background-accent-magenta-subtler-hovered: var(
+  --color-ad-background-accent-magenta-subtler: var(--ds-background-accent-magenta-subtler);
+  --color-ad-background-accent-magenta-subtler-hovered: var(
     --ds-background-accent-magenta-subtler-hovered
   );
-  --color-background-accent-magenta-subtler-pressed: var(
+  --color-ad-background-accent-magenta-subtler-pressed: var(
     --ds-background-accent-magenta-subtler-pressed
   );
-  --color-background-accent-magenta-subtlest: var(--ds-background-accent-magenta-subtlest);
-  --color-background-accent-magenta-subtlest-hovered: var(
+  --color-ad-background-accent-magenta-subtlest: var(--ds-background-accent-magenta-subtlest);
+  --color-ad-background-accent-magenta-subtlest-hovered: var(
     --ds-background-accent-magenta-subtlest-hovered
   );
-  --color-background-accent-magenta-subtlest-pressed: var(
+  --color-ad-background-accent-magenta-subtlest-pressed: var(
     --ds-background-accent-magenta-subtlest-pressed
   );
-  --color-background-accent-orange-bolder: var(--ds-background-accent-orange-bolder);
-  --color-background-accent-orange-bolder-hovered: var(
+  --color-ad-background-accent-orange-bolder: var(--ds-background-accent-orange-bolder);
+  --color-ad-background-accent-orange-bolder-hovered: var(
     --ds-background-accent-orange-bolder-hovered
   );
-  --color-background-accent-orange-bolder-pressed: var(
+  --color-ad-background-accent-orange-bolder-pressed: var(
     --ds-background-accent-orange-bolder-pressed
   );
-  --color-background-accent-orange-subtle: var(--ds-background-accent-orange-subtle);
-  --color-background-accent-orange-subtle-hovered: var(
+  --color-ad-background-accent-orange-subtle: var(--ds-background-accent-orange-subtle);
+  --color-ad-background-accent-orange-subtle-hovered: var(
     --ds-background-accent-orange-subtle-hovered
   );
-  --color-background-accent-orange-subtle-pressed: var(
+  --color-ad-background-accent-orange-subtle-pressed: var(
     --ds-background-accent-orange-subtle-pressed
   );
-  --color-background-accent-orange-subtler: var(--ds-background-accent-orange-subtler);
-  --color-background-accent-orange-subtler-hovered: var(
+  --color-ad-background-accent-orange-subtler: var(--ds-background-accent-orange-subtler);
+  --color-ad-background-accent-orange-subtler-hovered: var(
     --ds-background-accent-orange-subtler-hovered
   );
-  --color-background-accent-orange-subtler-pressed: var(
+  --color-ad-background-accent-orange-subtler-pressed: var(
     --ds-background-accent-orange-subtler-pressed
   );
-  --color-background-accent-orange-subtlest: var(--ds-background-accent-orange-subtlest);
-  --color-background-accent-orange-subtlest-hovered: var(
+  --color-ad-background-accent-orange-subtlest: var(--ds-background-accent-orange-subtlest);
+  --color-ad-background-accent-orange-subtlest-hovered: var(
     --ds-background-accent-orange-subtlest-hovered
   );
-  --color-background-accent-orange-subtlest-pressed: var(
+  --color-ad-background-accent-orange-subtlest-pressed: var(
     --ds-background-accent-orange-subtlest-pressed
   );
-  --color-background-accent-purple-bolder: var(--ds-background-accent-purple-bolder);
-  --color-background-accent-purple-bolder-hovered: var(
+  --color-ad-background-accent-purple-bolder: var(--ds-background-accent-purple-bolder);
+  --color-ad-background-accent-purple-bolder-hovered: var(
     --ds-background-accent-purple-bolder-hovered
   );
-  --color-background-accent-purple-bolder-pressed: var(
+  --color-ad-background-accent-purple-bolder-pressed: var(
     --ds-background-accent-purple-bolder-pressed
   );
-  --color-background-accent-purple-subtle: var(--ds-background-accent-purple-subtle);
-  --color-background-accent-purple-subtle-hovered: var(
+  --color-ad-background-accent-purple-subtle: var(--ds-background-accent-purple-subtle);
+  --color-ad-background-accent-purple-subtle-hovered: var(
     --ds-background-accent-purple-subtle-hovered
   );
-  --color-background-accent-purple-subtle-pressed: var(
+  --color-ad-background-accent-purple-subtle-pressed: var(
     --ds-background-accent-purple-subtle-pressed
   );
-  --color-background-accent-purple-subtler: var(--ds-background-accent-purple-subtler);
-  --color-background-accent-purple-subtler-hovered: var(
+  --color-ad-background-accent-purple-subtler: var(--ds-background-accent-purple-subtler);
+  --color-ad-background-accent-purple-subtler-hovered: var(
     --ds-background-accent-purple-subtler-hovered
   );
-  --color-background-accent-purple-subtler-pressed: var(
+  --color-ad-background-accent-purple-subtler-pressed: var(
     --ds-background-accent-purple-subtler-pressed
   );
-  --color-background-accent-purple-subtlest: var(--ds-background-accent-purple-subtlest);
-  --color-background-accent-purple-subtlest-hovered: var(
+  --color-ad-background-accent-purple-subtlest: var(--ds-background-accent-purple-subtlest);
+  --color-ad-background-accent-purple-subtlest-hovered: var(
     --ds-background-accent-purple-subtlest-hovered
   );
-  --color-background-accent-purple-subtlest-pressed: var(
+  --color-ad-background-accent-purple-subtlest-pressed: var(
     --ds-background-accent-purple-subtlest-pressed
   );
-  --color-background-accent-red-bolder: var(--ds-background-accent-red-bolder);
-  --color-background-accent-red-bolder-hovered: var(--ds-background-accent-red-bolder-hovered);
-  --color-background-accent-red-bolder-pressed: var(--ds-background-accent-red-bolder-pressed);
-  --color-background-accent-red-subtle: var(--ds-background-accent-red-subtle);
-  --color-background-accent-red-subtle-hovered: var(--ds-background-accent-red-subtle-hovered);
-  --color-background-accent-red-subtle-pressed: var(--ds-background-accent-red-subtle-pressed);
-  --color-background-accent-red-subtler: var(--ds-background-accent-red-subtler);
-  --color-background-accent-red-subtler-hovered: var(--ds-background-accent-red-subtler-hovered);
-  --color-background-accent-red-subtler-pressed: var(--ds-background-accent-red-subtler-pressed);
-  --color-background-accent-red-subtlest: var(--ds-background-accent-red-subtlest);
-  --color-background-accent-red-subtlest-hovered: var(--ds-background-accent-red-subtlest-hovered);
-  --color-background-accent-red-subtlest-pressed: var(--ds-background-accent-red-subtlest-pressed);
-  --color-background-accent-teal-bolder: var(--ds-background-accent-teal-bolder);
-  --color-background-accent-teal-bolder-hovered: var(--ds-background-accent-teal-bolder-hovered);
-  --color-background-accent-teal-bolder-pressed: var(--ds-background-accent-teal-bolder-pressed);
-  --color-background-accent-teal-subtle: var(--ds-background-accent-teal-subtle);
-  --color-background-accent-teal-subtle-hovered: var(--ds-background-accent-teal-subtle-hovered);
-  --color-background-accent-teal-subtle-pressed: var(--ds-background-accent-teal-subtle-pressed);
-  --color-background-accent-teal-subtler: var(--ds-background-accent-teal-subtler);
-  --color-background-accent-teal-subtler-hovered: var(--ds-background-accent-teal-subtler-hovered);
-  --color-background-accent-teal-subtler-pressed: var(--ds-background-accent-teal-subtler-pressed);
-  --color-background-accent-teal-subtlest: var(--ds-background-accent-teal-subtlest);
-  --color-background-accent-teal-subtlest-hovered: var(
+  --color-ad-background-accent-red-bolder: var(--ds-background-accent-red-bolder);
+  --color-ad-background-accent-red-bolder-hovered: var(--ds-background-accent-red-bolder-hovered);
+  --color-ad-background-accent-red-bolder-pressed: var(--ds-background-accent-red-bolder-pressed);
+  --color-ad-background-accent-red-subtle: var(--ds-background-accent-red-subtle);
+  --color-ad-background-accent-red-subtle-hovered: var(--ds-background-accent-red-subtle-hovered);
+  --color-ad-background-accent-red-subtle-pressed: var(--ds-background-accent-red-subtle-pressed);
+  --color-ad-background-accent-red-subtler: var(--ds-background-accent-red-subtler);
+  --color-ad-background-accent-red-subtler-hovered: var(--ds-background-accent-red-subtler-hovered);
+  --color-ad-background-accent-red-subtler-pressed: var(--ds-background-accent-red-subtler-pressed);
+  --color-ad-background-accent-red-subtlest: var(--ds-background-accent-red-subtlest);
+  --color-ad-background-accent-red-subtlest-hovered: var(
+    --ds-background-accent-red-subtlest-hovered
+  );
+  --color-ad-background-accent-red-subtlest-pressed: var(
+    --ds-background-accent-red-subtlest-pressed
+  );
+  --color-ad-background-accent-teal-bolder: var(--ds-background-accent-teal-bolder);
+  --color-ad-background-accent-teal-bolder-hovered: var(--ds-background-accent-teal-bolder-hovered);
+  --color-ad-background-accent-teal-bolder-pressed: var(--ds-background-accent-teal-bolder-pressed);
+  --color-ad-background-accent-teal-subtle: var(--ds-background-accent-teal-subtle);
+  --color-ad-background-accent-teal-subtle-hovered: var(--ds-background-accent-teal-subtle-hovered);
+  --color-ad-background-accent-teal-subtle-pressed: var(--ds-background-accent-teal-subtle-pressed);
+  --color-ad-background-accent-teal-subtler: var(--ds-background-accent-teal-subtler);
+  --color-ad-background-accent-teal-subtler-hovered: var(
+    --ds-background-accent-teal-subtler-hovered
+  );
+  --color-ad-background-accent-teal-subtler-pressed: var(
+    --ds-background-accent-teal-subtler-pressed
+  );
+  --color-ad-background-accent-teal-subtlest: var(--ds-background-accent-teal-subtlest);
+  --color-ad-background-accent-teal-subtlest-hovered: var(
     --ds-background-accent-teal-subtlest-hovered
   );
-  --color-background-accent-teal-subtlest-pressed: var(
+  --color-ad-background-accent-teal-subtlest-pressed: var(
     --ds-background-accent-teal-subtlest-pressed
   );
-  --color-background-accent-yellow-bolder: var(--ds-background-accent-yellow-bolder);
-  --color-background-accent-yellow-bolder-hovered: var(
+  --color-ad-background-accent-yellow-bolder: var(--ds-background-accent-yellow-bolder);
+  --color-ad-background-accent-yellow-bolder-hovered: var(
     --ds-background-accent-yellow-bolder-hovered
   );
-  --color-background-accent-yellow-bolder-pressed: var(
+  --color-ad-background-accent-yellow-bolder-pressed: var(
     --ds-background-accent-yellow-bolder-pressed
   );
-  --color-background-accent-yellow-subtle: var(--ds-background-accent-yellow-subtle);
-  --color-background-accent-yellow-subtle-hovered: var(
+  --color-ad-background-accent-yellow-subtle: var(--ds-background-accent-yellow-subtle);
+  --color-ad-background-accent-yellow-subtle-hovered: var(
     --ds-background-accent-yellow-subtle-hovered
   );
-  --color-background-accent-yellow-subtle-pressed: var(
+  --color-ad-background-accent-yellow-subtle-pressed: var(
     --ds-background-accent-yellow-subtle-pressed
   );
-  --color-background-accent-yellow-subtler: var(--ds-background-accent-yellow-subtler);
-  --color-background-accent-yellow-subtler-hovered: var(
+  --color-ad-background-accent-yellow-subtler: var(--ds-background-accent-yellow-subtler);
+  --color-ad-background-accent-yellow-subtler-hovered: var(
     --ds-background-accent-yellow-subtler-hovered
   );
-  --color-background-accent-yellow-subtler-pressed: var(
+  --color-ad-background-accent-yellow-subtler-pressed: var(
     --ds-background-accent-yellow-subtler-pressed
   );
-  --color-background-accent-yellow-subtlest: var(--ds-background-accent-yellow-subtlest);
-  --color-background-accent-yellow-subtlest-hovered: var(
+  --color-ad-background-accent-yellow-subtlest: var(--ds-background-accent-yellow-subtlest);
+  --color-ad-background-accent-yellow-subtlest-hovered: var(
     --ds-background-accent-yellow-subtlest-hovered
   );
-  --color-background-accent-yellow-subtlest-pressed: var(
+  --color-ad-background-accent-yellow-subtlest-pressed: var(
     --ds-background-accent-yellow-subtlest-pressed
   );
-  --color-background-brand-bold: var(--ds-background-brand-bold);
-  --color-background-brand-bold-hovered: var(--ds-background-brand-bold-hovered);
-  --color-background-brand-bold-pressed: var(--ds-background-brand-bold-pressed);
-  --color-background-brand-boldest: var(--ds-background-brand-boldest);
-  --color-background-brand-boldest-hovered: var(--ds-background-brand-boldest-hovered);
-  --color-background-brand-boldest-pressed: var(--ds-background-brand-boldest-pressed);
-  --color-background-brand-subtlest: var(--ds-background-brand-subtlest);
-  --color-background-brand-subtlest-hovered: var(--ds-background-brand-subtlest-hovered);
-  --color-background-brand-subtlest-pressed: var(--ds-background-brand-subtlest-pressed);
-  --color-background-danger: var(--ds-background-danger);
-  --color-background-danger-bold: var(--ds-background-danger-bold);
-  --color-background-danger-bold-hovered: var(--ds-background-danger-bold-hovered);
-  --color-background-danger-bold-pressed: var(--ds-background-danger-bold-pressed);
-  --color-background-danger-hovered: var(--ds-background-danger-hovered);
-  --color-background-danger-pressed: var(--ds-background-danger-pressed);
-  --color-background-danger-subtler: var(--ds-background-danger-subtler);
-  --color-background-danger-subtler-hovered: var(--ds-background-danger-subtler-hovered);
-  --color-background-danger-subtler-pressed: var(--ds-background-danger-subtler-pressed);
-  --color-background-disabled: var(--ds-background-disabled);
-  --color-background-discovery: var(--ds-background-discovery);
-  --color-background-discovery-bold: var(--ds-background-discovery-bold);
-  --color-background-discovery-bold-hovered: var(--ds-background-discovery-bold-hovered);
-  --color-background-discovery-bold-pressed: var(--ds-background-discovery-bold-pressed);
-  --color-background-discovery-hovered: var(--ds-background-discovery-hovered);
-  --color-background-discovery-pressed: var(--ds-background-discovery-pressed);
-  --color-background-discovery-subtler: var(--ds-background-discovery-subtler);
-  --color-background-discovery-subtler-hovered: var(--ds-background-discovery-subtler-hovered);
-  --color-background-discovery-subtler-pressed: var(--ds-background-discovery-subtler-pressed);
-  --color-background-information: var(--ds-background-information);
-  --color-background-information-bold: var(--ds-background-information-bold);
-  --color-background-information-bold-hovered: var(--ds-background-information-bold-hovered);
-  --color-background-information-bold-pressed: var(--ds-background-information-bold-pressed);
-  --color-background-information-hovered: var(--ds-background-information-hovered);
-  --color-background-information-pressed: var(--ds-background-information-pressed);
-  --color-background-information-subtler: var(--ds-background-information-subtler);
-  --color-background-information-subtler-hovered: var(--ds-background-information-subtler-hovered);
-  --color-background-information-subtler-pressed: var(--ds-background-information-subtler-pressed);
-  --color-background-input: var(--ds-background-input);
-  --color-background-input-hovered: var(--ds-background-input-hovered);
-  --color-background-input-pressed: var(--ds-background-input-pressed);
-  --color-background-inverse-subtle: var(--ds-background-inverse-subtle);
-  --color-background-inverse-subtle-hovered: var(--ds-background-inverse-subtle-hovered);
-  --color-background-inverse-subtle-pressed: var(--ds-background-inverse-subtle-pressed);
-  --color-background-neutral: var(--ds-background-neutral);
-  --color-background-neutral-bold: var(--ds-background-neutral-bold);
-  --color-background-neutral-bold-hovered: var(--ds-background-neutral-bold-hovered);
-  --color-background-neutral-bold-pressed: var(--ds-background-neutral-bold-pressed);
-  --color-background-neutral-hovered: var(--ds-background-neutral-hovered);
-  --color-background-neutral-pressed: var(--ds-background-neutral-pressed);
-  --color-background-neutral-subtle: var(--ds-background-neutral-subtle);
-  --color-background-neutral-subtle-hovered: var(--ds-background-neutral-subtle-hovered);
-  --color-background-neutral-subtle-pressed: var(--ds-background-neutral-subtle-pressed);
-  --color-background-selected: var(--ds-background-selected);
-  --color-background-selected-bold: var(--ds-background-selected-bold);
-  --color-background-selected-bold-hovered: var(--ds-background-selected-bold-hovered);
-  --color-background-selected-bold-pressed: var(--ds-background-selected-bold-pressed);
-  --color-background-selected-hovered: var(--ds-background-selected-hovered);
-  --color-background-selected-pressed: var(--ds-background-selected-pressed);
-  --color-background-success: var(--ds-background-success);
-  --color-background-success-bold: var(--ds-background-success-bold);
-  --color-background-success-bold-hovered: var(--ds-background-success-bold-hovered);
-  --color-background-success-bold-pressed: var(--ds-background-success-bold-pressed);
-  --color-background-success-hovered: var(--ds-background-success-hovered);
-  --color-background-success-pressed: var(--ds-background-success-pressed);
-  --color-background-success-subtler: var(--ds-background-success-subtler);
-  --color-background-success-subtler-hovered: var(--ds-background-success-subtler-hovered);
-  --color-background-success-subtler-pressed: var(--ds-background-success-subtler-pressed);
-  --color-background-warning: var(--ds-background-warning);
-  --color-background-warning-bold: var(--ds-background-warning-bold);
-  --color-background-warning-bold-hovered: var(--ds-background-warning-bold-hovered);
-  --color-background-warning-bold-pressed: var(--ds-background-warning-bold-pressed);
-  --color-background-warning-hovered: var(--ds-background-warning-hovered);
-  --color-background-warning-pressed: var(--ds-background-warning-pressed);
-  --color-background-warning-subtler: var(--ds-background-warning-subtler);
-  --color-background-warning-subtler-hovered: var(--ds-background-warning-subtler-hovered);
-  --color-background-warning-subtler-pressed: var(--ds-background-warning-subtler-pressed);
-  --color-blanket: var(--ds-blanket);
-  --color-blanket-danger: var(--ds-blanket-danger);
-  --color-blanket-selected: var(--ds-blanket-selected);
-  --color-border: var(--ds-border);
-  --color-border-accent-blue: var(--ds-border-accent-blue);
-  --color-border-accent-gray: var(--ds-border-accent-gray);
-  --color-border-accent-green: var(--ds-border-accent-green);
-  --color-border-accent-lime: var(--ds-border-accent-lime);
-  --color-border-accent-magenta: var(--ds-border-accent-magenta);
-  --color-border-accent-orange: var(--ds-border-accent-orange);
-  --color-border-accent-purple: var(--ds-border-accent-purple);
-  --color-border-accent-red: var(--ds-border-accent-red);
-  --color-border-accent-teal: var(--ds-border-accent-teal);
-  --color-border-accent-yellow: var(--ds-border-accent-yellow);
-  --color-border-bold: var(--ds-border-bold);
-  --color-border-brand: var(--ds-border-brand);
-  --color-border-danger: var(--ds-border-danger);
-  --color-border-disabled: var(--ds-border-disabled);
-  --color-border-discovery: var(--ds-border-discovery);
-  --color-border-focused: var(--ds-border-focused);
-  --color-border-information: var(--ds-border-information);
-  --color-border-input: var(--ds-border-input);
-  --color-border-inverse: var(--ds-border-inverse);
-  --color-border-selected: var(--ds-border-selected);
-  --color-border-success: var(--ds-border-success);
-  --color-border-warning: var(--ds-border-warning);
-  --color-chart-blue-bold: var(--ds-chart-blue-bold);
-  --color-chart-blue-bold-hovered: var(--ds-chart-blue-bold-hovered);
-  --color-chart-blue-bolder: var(--ds-chart-blue-bolder);
-  --color-chart-blue-bolder-hovered: var(--ds-chart-blue-bolder-hovered);
-  --color-chart-blue-boldest: var(--ds-chart-blue-boldest);
-  --color-chart-blue-boldest-hovered: var(--ds-chart-blue-boldest-hovered);
-  --color-chart-brand: var(--ds-chart-brand);
-  --color-chart-brand-hovered: var(--ds-chart-brand-hovered);
-  --color-chart-categorical-1: var(--ds-chart-categorical-1);
-  --color-chart-categorical-1-hovered: var(--ds-chart-categorical-1-hovered);
-  --color-chart-categorical-2: var(--ds-chart-categorical-2);
-  --color-chart-categorical-2-hovered: var(--ds-chart-categorical-2-hovered);
-  --color-chart-categorical-3: var(--ds-chart-categorical-3);
-  --color-chart-categorical-3-hovered: var(--ds-chart-categorical-3-hovered);
-  --color-chart-categorical-4: var(--ds-chart-categorical-4);
-  --color-chart-categorical-4-hovered: var(--ds-chart-categorical-4-hovered);
-  --color-chart-categorical-5: var(--ds-chart-categorical-5);
-  --color-chart-categorical-5-hovered: var(--ds-chart-categorical-5-hovered);
-  --color-chart-categorical-6: var(--ds-chart-categorical-6);
-  --color-chart-categorical-6-hovered: var(--ds-chart-categorical-6-hovered);
-  --color-chart-categorical-7: var(--ds-chart-categorical-7);
-  --color-chart-categorical-7-hovered: var(--ds-chart-categorical-7-hovered);
-  --color-chart-categorical-8: var(--ds-chart-categorical-8);
-  --color-chart-categorical-8-hovered: var(--ds-chart-categorical-8-hovered);
-  --color-chart-danger: var(--ds-chart-danger);
-  --color-chart-danger-bold: var(--ds-chart-danger-bold);
-  --color-chart-danger-bold-hovered: var(--ds-chart-danger-bold-hovered);
-  --color-chart-danger-hovered: var(--ds-chart-danger-hovered);
-  --color-chart-discovery: var(--ds-chart-discovery);
-  --color-chart-discovery-bold: var(--ds-chart-discovery-bold);
-  --color-chart-discovery-bold-hovered: var(--ds-chart-discovery-bold-hovered);
-  --color-chart-discovery-hovered: var(--ds-chart-discovery-hovered);
-  --color-chart-gray-bold: var(--ds-chart-gray-bold);
-  --color-chart-gray-bold-hovered: var(--ds-chart-gray-bold-hovered);
-  --color-chart-gray-bolder: var(--ds-chart-gray-bolder);
-  --color-chart-gray-bolder-hovered: var(--ds-chart-gray-bolder-hovered);
-  --color-chart-gray-boldest: var(--ds-chart-gray-boldest);
-  --color-chart-gray-boldest-hovered: var(--ds-chart-gray-boldest-hovered);
-  --color-chart-green-bold: var(--ds-chart-green-bold);
-  --color-chart-green-bold-hovered: var(--ds-chart-green-bold-hovered);
-  --color-chart-green-bolder: var(--ds-chart-green-bolder);
-  --color-chart-green-bolder-hovered: var(--ds-chart-green-bolder-hovered);
-  --color-chart-green-boldest: var(--ds-chart-green-boldest);
-  --color-chart-green-boldest-hovered: var(--ds-chart-green-boldest-hovered);
-  --color-chart-information: var(--ds-chart-information);
-  --color-chart-information-bold: var(--ds-chart-information-bold);
-  --color-chart-information-bold-hovered: var(--ds-chart-information-bold-hovered);
-  --color-chart-information-hovered: var(--ds-chart-information-hovered);
-  --color-chart-lime-bold: var(--ds-chart-lime-bold);
-  --color-chart-lime-bold-hovered: var(--ds-chart-lime-bold-hovered);
-  --color-chart-lime-bolder: var(--ds-chart-lime-bolder);
-  --color-chart-lime-bolder-hovered: var(--ds-chart-lime-bolder-hovered);
-  --color-chart-lime-boldest: var(--ds-chart-lime-boldest);
-  --color-chart-lime-boldest-hovered: var(--ds-chart-lime-boldest-hovered);
-  --color-chart-magenta-bold: var(--ds-chart-magenta-bold);
-  --color-chart-magenta-bold-hovered: var(--ds-chart-magenta-bold-hovered);
-  --color-chart-magenta-bolder: var(--ds-chart-magenta-bolder);
-  --color-chart-magenta-bolder-hovered: var(--ds-chart-magenta-bolder-hovered);
-  --color-chart-magenta-boldest: var(--ds-chart-magenta-boldest);
-  --color-chart-magenta-boldest-hovered: var(--ds-chart-magenta-boldest-hovered);
-  --color-chart-neutral: var(--ds-chart-neutral);
-  --color-chart-neutral-hovered: var(--ds-chart-neutral-hovered);
-  --color-chart-orange-bold: var(--ds-chart-orange-bold);
-  --color-chart-orange-bold-hovered: var(--ds-chart-orange-bold-hovered);
-  --color-chart-orange-bolder: var(--ds-chart-orange-bolder);
-  --color-chart-orange-bolder-hovered: var(--ds-chart-orange-bolder-hovered);
-  --color-chart-orange-boldest: var(--ds-chart-orange-boldest);
-  --color-chart-orange-boldest-hovered: var(--ds-chart-orange-boldest-hovered);
-  --color-chart-purple-bold: var(--ds-chart-purple-bold);
-  --color-chart-purple-bold-hovered: var(--ds-chart-purple-bold-hovered);
-  --color-chart-purple-bolder: var(--ds-chart-purple-bolder);
-  --color-chart-purple-bolder-hovered: var(--ds-chart-purple-bolder-hovered);
-  --color-chart-purple-boldest: var(--ds-chart-purple-boldest);
-  --color-chart-purple-boldest-hovered: var(--ds-chart-purple-boldest-hovered);
-  --color-chart-red-bold: var(--ds-chart-red-bold);
-  --color-chart-red-bold-hovered: var(--ds-chart-red-bold-hovered);
-  --color-chart-red-bolder: var(--ds-chart-red-bolder);
-  --color-chart-red-bolder-hovered: var(--ds-chart-red-bolder-hovered);
-  --color-chart-red-boldest: var(--ds-chart-red-boldest);
-  --color-chart-red-boldest-hovered: var(--ds-chart-red-boldest-hovered);
-  --color-chart-success: var(--ds-chart-success);
-  --color-chart-success-bold: var(--ds-chart-success-bold);
-  --color-chart-success-bold-hovered: var(--ds-chart-success-bold-hovered);
-  --color-chart-success-hovered: var(--ds-chart-success-hovered);
-  --color-chart-teal-bold: var(--ds-chart-teal-bold);
-  --color-chart-teal-bold-hovered: var(--ds-chart-teal-bold-hovered);
-  --color-chart-teal-bolder: var(--ds-chart-teal-bolder);
-  --color-chart-teal-bolder-hovered: var(--ds-chart-teal-bolder-hovered);
-  --color-chart-teal-boldest: var(--ds-chart-teal-boldest);
-  --color-chart-teal-boldest-hovered: var(--ds-chart-teal-boldest-hovered);
-  --color-chart-warning: var(--ds-chart-warning);
-  --color-chart-warning-bold: var(--ds-chart-warning-bold);
-  --color-chart-warning-bold-hovered: var(--ds-chart-warning-bold-hovered);
-  --color-chart-warning-hovered: var(--ds-chart-warning-hovered);
-  --color-chart-yellow-bold: var(--ds-chart-yellow-bold);
-  --color-chart-yellow-bold-hovered: var(--ds-chart-yellow-bold-hovered);
-  --color-chart-yellow-bolder: var(--ds-chart-yellow-bolder);
-  --color-chart-yellow-bolder-hovered: var(--ds-chart-yellow-bolder-hovered);
-  --color-chart-yellow-boldest: var(--ds-chart-yellow-boldest);
-  --color-chart-yellow-boldest-hovered: var(--ds-chart-yellow-boldest-hovered);
-  --color-icon: var(--ds-icon);
-  --color-icon-accent-blue: var(--ds-icon-accent-blue);
-  --color-icon-accent-gray: var(--ds-icon-accent-gray);
-  --color-icon-accent-green: var(--ds-icon-accent-green);
-  --color-icon-accent-lime: var(--ds-icon-accent-lime);
-  --color-icon-accent-magenta: var(--ds-icon-accent-magenta);
-  --color-icon-accent-orange: var(--ds-icon-accent-orange);
-  --color-icon-accent-purple: var(--ds-icon-accent-purple);
-  --color-icon-accent-red: var(--ds-icon-accent-red);
-  --color-icon-accent-teal: var(--ds-icon-accent-teal);
-  --color-icon-accent-yellow: var(--ds-icon-accent-yellow);
-  --color-icon-brand: var(--ds-icon-brand);
-  --color-icon-danger: var(--ds-icon-danger);
-  --color-icon-disabled: var(--ds-icon-disabled);
-  --color-icon-discovery: var(--ds-icon-discovery);
-  --color-icon-information: var(--ds-icon-information);
-  --color-icon-inverse: var(--ds-icon-inverse);
-  --color-icon-selected: var(--ds-icon-selected);
-  --color-icon-subtle: var(--ds-icon-subtle);
-  --color-icon-subtlest: var(--ds-icon-subtlest);
-  --color-icon-success: var(--ds-icon-success);
-  --color-icon-warning: var(--ds-icon-warning);
-  --color-icon-warning-inverse: var(--ds-icon-warning-inverse);
-  --color-interaction-hovered: var(--ds-interaction-hovered);
-  --color-interaction-pressed: var(--ds-interaction-pressed);
-  --color-link: var(--ds-link);
-  --color-link-pressed: var(--ds-link-pressed);
-  --color-link-visited: var(--ds-link-visited);
-  --color-link-visited-pressed: var(--ds-link-visited-pressed);
-  --color-skeleton: var(--ds-skeleton);
-  --color-skeleton-subtle: var(--ds-skeleton-subtle);
-  --color-text: var(--ds-text);
-  --color-text-accent-blue: var(--ds-text-accent-blue);
-  --color-text-accent-blue-bolder: var(--ds-text-accent-blue-bolder);
-  --color-text-accent-gray: var(--ds-text-accent-gray);
-  --color-text-accent-gray-bolder: var(--ds-text-accent-gray-bolder);
-  --color-text-accent-green: var(--ds-text-accent-green);
-  --color-text-accent-green-bolder: var(--ds-text-accent-green-bolder);
-  --color-text-accent-lime: var(--ds-text-accent-lime);
-  --color-text-accent-lime-bolder: var(--ds-text-accent-lime-bolder);
-  --color-text-accent-magenta: var(--ds-text-accent-magenta);
-  --color-text-accent-magenta-bolder: var(--ds-text-accent-magenta-bolder);
-  --color-text-accent-orange: var(--ds-text-accent-orange);
-  --color-text-accent-orange-bolder: var(--ds-text-accent-orange-bolder);
-  --color-text-accent-purple: var(--ds-text-accent-purple);
-  --color-text-accent-purple-bolder: var(--ds-text-accent-purple-bolder);
-  --color-text-accent-red: var(--ds-text-accent-red);
-  --color-text-accent-red-bolder: var(--ds-text-accent-red-bolder);
-  --color-text-accent-teal: var(--ds-text-accent-teal);
-  --color-text-accent-teal-bolder: var(--ds-text-accent-teal-bolder);
-  --color-text-accent-yellow: var(--ds-text-accent-yellow);
-  --color-text-accent-yellow-bolder: var(--ds-text-accent-yellow-bolder);
-  --color-text-brand: var(--ds-text-brand);
-  --color-text-danger: var(--ds-text-danger);
-  --color-text-danger-bolder: var(--ds-text-danger-bolder);
-  --color-text-disabled: var(--ds-text-disabled);
-  --color-text-discovery: var(--ds-text-discovery);
-  --color-text-discovery-bolder: var(--ds-text-discovery-bolder);
-  --color-text-information: var(--ds-text-information);
-  --color-text-information-bolder: var(--ds-text-information-bolder);
-  --color-text-inverse: var(--ds-text-inverse);
-  --color-text-selected: var(--ds-text-selected);
-  --color-text-subtle: var(--ds-text-subtle);
-  --color-text-subtlest: var(--ds-text-subtlest);
-  --color-text-success: var(--ds-text-success);
-  --color-text-success-bolder: var(--ds-text-success-bolder);
-  --color-text-warning: var(--ds-text-warning);
-  --color-text-warning-bolder: var(--ds-text-warning-bolder);
-  --color-text-warning-inverse: var(--ds-text-warning-inverse);
-  --elevation-shadow-overflow: var(--ds-shadow-overflow);
-  --elevation-shadow-overflow-perimeter: var(--ds-shadow-overflow-perimeter);
-  --elevation-shadow-overflow-spread: var(--ds-shadow-overflow-spread);
-  --elevation-shadow-overlay: var(--ds-shadow-overlay);
-  --elevation-shadow-raised: var(--ds-shadow-raised);
-  --elevation-surface: var(--ds-surface);
-  --elevation-surface-hovered: var(--ds-surface-hovered);
-  --elevation-surface-overlay: var(--ds-surface-overlay);
-  --elevation-surface-overlay-hovered: var(--ds-surface-overlay-hovered);
-  --elevation-surface-overlay-pressed: var(--ds-surface-overlay-pressed);
-  --elevation-surface-pressed: var(--ds-surface-pressed);
-  --elevation-surface-raised: var(--ds-surface-raised);
-  --elevation-surface-raised-hovered: var(--ds-surface-raised-hovered);
-  --elevation-surface-raised-pressed: var(--ds-surface-raised-pressed);
-  --elevation-surface-sunken: var(--ds-surface-sunken);
-  --font-body: var(--ds-font-body);
-  --font-body-large: var(--ds-font-body-large);
-  --font-body-small: var(--ds-font-body-small);
-  --font-body-UNSAFE_small: var(--ds-font-body-UNSAFE_small);
-  --font-code: var(--ds-font-code);
-  --font-family-body: var(--ds-font-family-body);
-  --font-family-brand-body: var(--ds-font-family-brand-body);
-  --font-family-brand-heading: var(--ds-font-family-brand-heading);
-  --font-family-code: var(--ds-font-family-code);
-  --font-family-heading: var(--ds-font-family-heading);
-  --font-heading-large: var(--ds-font-heading-large);
-  --font-heading-medium: var(--ds-font-heading-medium);
-  --font-heading-small: var(--ds-font-heading-small);
-  --font-heading-xlarge: var(--ds-font-heading-xlarge);
-  --font-heading-xsmall: var(--ds-font-heading-xsmall);
-  --font-heading-xxlarge: var(--ds-font-heading-xxlarge);
-  --font-heading-xxsmall: var(--ds-font-heading-xxsmall);
-  --font-metric-large: var(--ds-font-metric-large);
-  --font-metric-medium: var(--ds-font-metric-medium);
-  --font-metric-small: var(--ds-font-metric-small);
-  --font-weight-bold: var(--ds-font-weight-bold);
-  --font-weight-medium: var(--ds-font-weight-medium);
-  --font-weight-regular: var(--ds-font-weight-regular);
-  --font-weight-semibold: var(--ds-font-weight-semibold);
-  --motion-avatar-enter: var(--ds-avatar-enter);
-  --motion-avatar-exit: var(--ds-avatar-exit);
-  --motion-avatar-hovered: var(--ds-avatar-hovered);
-  --motion-content-enter-long: var(--ds-content-enter-long);
-  --motion-content-enter-medium: var(--ds-content-enter-medium);
-  --motion-content-enter-short: var(--ds-content-enter-short);
-  --motion-content-exit-long: var(--ds-content-exit-long);
-  --motion-content-exit-medium: var(--ds-content-exit-medium);
-  --motion-content-exit-short: var(--ds-content-exit-short);
-  --motion-flag-enter: var(--ds-flag-enter);
-  --motion-flag-exit: var(--ds-flag-exit);
-  --motion-flag-reposition: var(--ds-flag-reposition);
-  --motion-modal-enter: var(--ds-modal-enter);
-  --motion-modal-exit: var(--ds-modal-exit);
-  --motion-popup-enter-bottom: var(--ds-popup-enter-bottom);
-  --motion-popup-enter-left: var(--ds-popup-enter-left);
-  --motion-popup-enter-right: var(--ds-popup-enter-right);
-  --motion-popup-enter-top: var(--ds-popup-enter-top);
-  --motion-popup-exit-bottom: var(--ds-popup-exit-bottom);
-  --motion-popup-exit-left: var(--ds-popup-exit-left);
-  --motion-popup-exit-right: var(--ds-popup-exit-right);
-  --motion-popup-exit-top: var(--ds-popup-exit-top);
-  --motion-spotlight-enter: var(--ds-spotlight-enter);
-  --motion-spotlight-exit: var(--ds-spotlight-exit);
-  --opacity-disabled: var(--ds-opacity-disabled);
-  --opacity-loading: var(--ds-opacity-loading);
-  --radius-full: var(--ds-radius-full);
-  --radius-large: var(--ds-radius-large);
-  --radius-medium: var(--ds-radius-medium);
-  --radius-small: var(--ds-radius-small);
-  --radius-tile: var(--ds-radius-tile);
-  --radius-xlarge: var(--ds-radius-xlarge);
-  --radius-xsmall: var(--ds-radius-xsmall);
-  --radius-xxlarge: var(--ds-radius-xxlarge);
-  --space-0: var(--ds-space-0);
-  --space-025: var(--ds-space-025);
-  --space-050: var(--ds-space-050);
-  --space-075: var(--ds-space-075);
-  --space-100: var(--ds-space-100);
-  --space-1000: var(--ds-space-1000);
-  --space-150: var(--ds-space-150);
-  --space-200: var(--ds-space-200);
-  --space-250: var(--ds-space-250);
-  --space-300: var(--ds-space-300);
-  --space-400: var(--ds-space-400);
-  --space-500: var(--ds-space-500);
-  --space-600: var(--ds-space-600);
-  --space-800: var(--ds-space-800);
-  --space-negative-025: var(--ds-space-negative-025);
-  --space-negative-050: var(--ds-space-negative-050);
-  --space-negative-075: var(--ds-space-negative-075);
-  --space-negative-100: var(--ds-space-negative-100);
-  --space-negative-150: var(--ds-space-negative-150);
-  --space-negative-200: var(--ds-space-negative-200);
-  --space-negative-250: var(--ds-space-negative-250);
-  --space-negative-300: var(--ds-space-negative-300);
-  --space-negative-400: var(--ds-space-negative-400);
-  --utility-elevation-surface-current: var(--ds-elevation-surface-current);
-  --utility-UNSAFE-transparent: var(--ds-UNSAFE-transparent);
+  --color-ad-background-brand-bold: var(--ds-background-brand-bold);
+  --color-ad-background-brand-bold-hovered: var(--ds-background-brand-bold-hovered);
+  --color-ad-background-brand-bold-pressed: var(--ds-background-brand-bold-pressed);
+  --color-ad-background-brand-boldest: var(--ds-background-brand-boldest);
+  --color-ad-background-brand-boldest-hovered: var(--ds-background-brand-boldest-hovered);
+  --color-ad-background-brand-boldest-pressed: var(--ds-background-brand-boldest-pressed);
+  --color-ad-background-brand-subtlest: var(--ds-background-brand-subtlest);
+  --color-ad-background-brand-subtlest-hovered: var(--ds-background-brand-subtlest-hovered);
+  --color-ad-background-brand-subtlest-pressed: var(--ds-background-brand-subtlest-pressed);
+  --color-ad-background-danger: var(--ds-background-danger);
+  --color-ad-background-danger-bold: var(--ds-background-danger-bold);
+  --color-ad-background-danger-bold-hovered: var(--ds-background-danger-bold-hovered);
+  --color-ad-background-danger-bold-pressed: var(--ds-background-danger-bold-pressed);
+  --color-ad-background-danger-hovered: var(--ds-background-danger-hovered);
+  --color-ad-background-danger-pressed: var(--ds-background-danger-pressed);
+  --color-ad-background-danger-subtler: var(--ds-background-danger-subtler);
+  --color-ad-background-danger-subtler-hovered: var(--ds-background-danger-subtler-hovered);
+  --color-ad-background-danger-subtler-pressed: var(--ds-background-danger-subtler-pressed);
+  --color-ad-background-disabled: var(--ds-background-disabled);
+  --color-ad-background-discovery: var(--ds-background-discovery);
+  --color-ad-background-discovery-bold: var(--ds-background-discovery-bold);
+  --color-ad-background-discovery-bold-hovered: var(--ds-background-discovery-bold-hovered);
+  --color-ad-background-discovery-bold-pressed: var(--ds-background-discovery-bold-pressed);
+  --color-ad-background-discovery-hovered: var(--ds-background-discovery-hovered);
+  --color-ad-background-discovery-pressed: var(--ds-background-discovery-pressed);
+  --color-ad-background-discovery-subtler: var(--ds-background-discovery-subtler);
+  --color-ad-background-discovery-subtler-hovered: var(--ds-background-discovery-subtler-hovered);
+  --color-ad-background-discovery-subtler-pressed: var(--ds-background-discovery-subtler-pressed);
+  --color-ad-background-information: var(--ds-background-information);
+  --color-ad-background-information-bold: var(--ds-background-information-bold);
+  --color-ad-background-information-bold-hovered: var(--ds-background-information-bold-hovered);
+  --color-ad-background-information-bold-pressed: var(--ds-background-information-bold-pressed);
+  --color-ad-background-information-hovered: var(--ds-background-information-hovered);
+  --color-ad-background-information-pressed: var(--ds-background-information-pressed);
+  --color-ad-background-information-subtler: var(--ds-background-information-subtler);
+  --color-ad-background-information-subtler-hovered: var(
+    --ds-background-information-subtler-hovered
+  );
+  --color-ad-background-information-subtler-pressed: var(
+    --ds-background-information-subtler-pressed
+  );
+  --color-ad-background-input: var(--ds-background-input);
+  --color-ad-background-input-hovered: var(--ds-background-input-hovered);
+  --color-ad-background-input-pressed: var(--ds-background-input-pressed);
+  --color-ad-background-inverse-subtle: var(--ds-background-inverse-subtle);
+  --color-ad-background-inverse-subtle-hovered: var(--ds-background-inverse-subtle-hovered);
+  --color-ad-background-inverse-subtle-pressed: var(--ds-background-inverse-subtle-pressed);
+  --color-ad-background-neutral: var(--ds-background-neutral);
+  --color-ad-background-neutral-bold: var(--ds-background-neutral-bold);
+  --color-ad-background-neutral-bold-hovered: var(--ds-background-neutral-bold-hovered);
+  --color-ad-background-neutral-bold-pressed: var(--ds-background-neutral-bold-pressed);
+  --color-ad-background-neutral-hovered: var(--ds-background-neutral-hovered);
+  --color-ad-background-neutral-pressed: var(--ds-background-neutral-pressed);
+  --color-ad-background-neutral-subtle: var(--ds-background-neutral-subtle);
+  --color-ad-background-neutral-subtle-hovered: var(--ds-background-neutral-subtle-hovered);
+  --color-ad-background-neutral-subtle-pressed: var(--ds-background-neutral-subtle-pressed);
+  --color-ad-background-selected: var(--ds-background-selected);
+  --color-ad-background-selected-bold: var(--ds-background-selected-bold);
+  --color-ad-background-selected-bold-hovered: var(--ds-background-selected-bold-hovered);
+  --color-ad-background-selected-bold-pressed: var(--ds-background-selected-bold-pressed);
+  --color-ad-background-selected-hovered: var(--ds-background-selected-hovered);
+  --color-ad-background-selected-pressed: var(--ds-background-selected-pressed);
+  --color-ad-background-success: var(--ds-background-success);
+  --color-ad-background-success-bold: var(--ds-background-success-bold);
+  --color-ad-background-success-bold-hovered: var(--ds-background-success-bold-hovered);
+  --color-ad-background-success-bold-pressed: var(--ds-background-success-bold-pressed);
+  --color-ad-background-success-hovered: var(--ds-background-success-hovered);
+  --color-ad-background-success-pressed: var(--ds-background-success-pressed);
+  --color-ad-background-success-subtler: var(--ds-background-success-subtler);
+  --color-ad-background-success-subtler-hovered: var(--ds-background-success-subtler-hovered);
+  --color-ad-background-success-subtler-pressed: var(--ds-background-success-subtler-pressed);
+  --color-ad-background-warning: var(--ds-background-warning);
+  --color-ad-background-warning-bold: var(--ds-background-warning-bold);
+  --color-ad-background-warning-bold-hovered: var(--ds-background-warning-bold-hovered);
+  --color-ad-background-warning-bold-pressed: var(--ds-background-warning-bold-pressed);
+  --color-ad-background-warning-hovered: var(--ds-background-warning-hovered);
+  --color-ad-background-warning-pressed: var(--ds-background-warning-pressed);
+  --color-ad-background-warning-subtler: var(--ds-background-warning-subtler);
+  --color-ad-background-warning-subtler-hovered: var(--ds-background-warning-subtler-hovered);
+  --color-ad-background-warning-subtler-pressed: var(--ds-background-warning-subtler-pressed);
+  --color-ad-blanket: var(--ds-blanket);
+  --color-ad-blanket-danger: var(--ds-blanket-danger);
+  --color-ad-blanket-selected: var(--ds-blanket-selected);
+  --color-ad-border: var(--ds-border);
+  --color-ad-border-accent-blue: var(--ds-border-accent-blue);
+  --color-ad-border-accent-gray: var(--ds-border-accent-gray);
+  --color-ad-border-accent-green: var(--ds-border-accent-green);
+  --color-ad-border-accent-lime: var(--ds-border-accent-lime);
+  --color-ad-border-accent-magenta: var(--ds-border-accent-magenta);
+  --color-ad-border-accent-orange: var(--ds-border-accent-orange);
+  --color-ad-border-accent-purple: var(--ds-border-accent-purple);
+  --color-ad-border-accent-red: var(--ds-border-accent-red);
+  --color-ad-border-accent-teal: var(--ds-border-accent-teal);
+  --color-ad-border-accent-yellow: var(--ds-border-accent-yellow);
+  --color-ad-border-bold: var(--ds-border-bold);
+  --color-ad-border-brand: var(--ds-border-brand);
+  --color-ad-border-danger: var(--ds-border-danger);
+  --color-ad-border-disabled: var(--ds-border-disabled);
+  --color-ad-border-discovery: var(--ds-border-discovery);
+  --color-ad-border-focused: var(--ds-border-focused);
+  --color-ad-border-information: var(--ds-border-information);
+  --color-ad-border-input: var(--ds-border-input);
+  --color-ad-border-inverse: var(--ds-border-inverse);
+  --color-ad-border-selected: var(--ds-border-selected);
+  --color-ad-border-success: var(--ds-border-success);
+  --color-ad-border-warning: var(--ds-border-warning);
+  --color-ad-chart-blue-bold: var(--ds-chart-blue-bold);
+  --color-ad-chart-blue-bold-hovered: var(--ds-chart-blue-bold-hovered);
+  --color-ad-chart-blue-bolder: var(--ds-chart-blue-bolder);
+  --color-ad-chart-blue-bolder-hovered: var(--ds-chart-blue-bolder-hovered);
+  --color-ad-chart-blue-boldest: var(--ds-chart-blue-boldest);
+  --color-ad-chart-blue-boldest-hovered: var(--ds-chart-blue-boldest-hovered);
+  --color-ad-chart-brand: var(--ds-chart-brand);
+  --color-ad-chart-brand-hovered: var(--ds-chart-brand-hovered);
+  --color-ad-chart-categorical-1: var(--ds-chart-categorical-1);
+  --color-ad-chart-categorical-1-hovered: var(--ds-chart-categorical-1-hovered);
+  --color-ad-chart-categorical-2: var(--ds-chart-categorical-2);
+  --color-ad-chart-categorical-2-hovered: var(--ds-chart-categorical-2-hovered);
+  --color-ad-chart-categorical-3: var(--ds-chart-categorical-3);
+  --color-ad-chart-categorical-3-hovered: var(--ds-chart-categorical-3-hovered);
+  --color-ad-chart-categorical-4: var(--ds-chart-categorical-4);
+  --color-ad-chart-categorical-4-hovered: var(--ds-chart-categorical-4-hovered);
+  --color-ad-chart-categorical-5: var(--ds-chart-categorical-5);
+  --color-ad-chart-categorical-5-hovered: var(--ds-chart-categorical-5-hovered);
+  --color-ad-chart-categorical-6: var(--ds-chart-categorical-6);
+  --color-ad-chart-categorical-6-hovered: var(--ds-chart-categorical-6-hovered);
+  --color-ad-chart-categorical-7: var(--ds-chart-categorical-7);
+  --color-ad-chart-categorical-7-hovered: var(--ds-chart-categorical-7-hovered);
+  --color-ad-chart-categorical-8: var(--ds-chart-categorical-8);
+  --color-ad-chart-categorical-8-hovered: var(--ds-chart-categorical-8-hovered);
+  --color-ad-chart-danger: var(--ds-chart-danger);
+  --color-ad-chart-danger-bold: var(--ds-chart-danger-bold);
+  --color-ad-chart-danger-bold-hovered: var(--ds-chart-danger-bold-hovered);
+  --color-ad-chart-danger-hovered: var(--ds-chart-danger-hovered);
+  --color-ad-chart-discovery: var(--ds-chart-discovery);
+  --color-ad-chart-discovery-bold: var(--ds-chart-discovery-bold);
+  --color-ad-chart-discovery-bold-hovered: var(--ds-chart-discovery-bold-hovered);
+  --color-ad-chart-discovery-hovered: var(--ds-chart-discovery-hovered);
+  --color-ad-chart-gray-bold: var(--ds-chart-gray-bold);
+  --color-ad-chart-gray-bold-hovered: var(--ds-chart-gray-bold-hovered);
+  --color-ad-chart-gray-bolder: var(--ds-chart-gray-bolder);
+  --color-ad-chart-gray-bolder-hovered: var(--ds-chart-gray-bolder-hovered);
+  --color-ad-chart-gray-boldest: var(--ds-chart-gray-boldest);
+  --color-ad-chart-gray-boldest-hovered: var(--ds-chart-gray-boldest-hovered);
+  --color-ad-chart-green-bold: var(--ds-chart-green-bold);
+  --color-ad-chart-green-bold-hovered: var(--ds-chart-green-bold-hovered);
+  --color-ad-chart-green-bolder: var(--ds-chart-green-bolder);
+  --color-ad-chart-green-bolder-hovered: var(--ds-chart-green-bolder-hovered);
+  --color-ad-chart-green-boldest: var(--ds-chart-green-boldest);
+  --color-ad-chart-green-boldest-hovered: var(--ds-chart-green-boldest-hovered);
+  --color-ad-chart-information: var(--ds-chart-information);
+  --color-ad-chart-information-bold: var(--ds-chart-information-bold);
+  --color-ad-chart-information-bold-hovered: var(--ds-chart-information-bold-hovered);
+  --color-ad-chart-information-hovered: var(--ds-chart-information-hovered);
+  --color-ad-chart-lime-bold: var(--ds-chart-lime-bold);
+  --color-ad-chart-lime-bold-hovered: var(--ds-chart-lime-bold-hovered);
+  --color-ad-chart-lime-bolder: var(--ds-chart-lime-bolder);
+  --color-ad-chart-lime-bolder-hovered: var(--ds-chart-lime-bolder-hovered);
+  --color-ad-chart-lime-boldest: var(--ds-chart-lime-boldest);
+  --color-ad-chart-lime-boldest-hovered: var(--ds-chart-lime-boldest-hovered);
+  --color-ad-chart-magenta-bold: var(--ds-chart-magenta-bold);
+  --color-ad-chart-magenta-bold-hovered: var(--ds-chart-magenta-bold-hovered);
+  --color-ad-chart-magenta-bolder: var(--ds-chart-magenta-bolder);
+  --color-ad-chart-magenta-bolder-hovered: var(--ds-chart-magenta-bolder-hovered);
+  --color-ad-chart-magenta-boldest: var(--ds-chart-magenta-boldest);
+  --color-ad-chart-magenta-boldest-hovered: var(--ds-chart-magenta-boldest-hovered);
+  --color-ad-chart-neutral: var(--ds-chart-neutral);
+  --color-ad-chart-neutral-hovered: var(--ds-chart-neutral-hovered);
+  --color-ad-chart-orange-bold: var(--ds-chart-orange-bold);
+  --color-ad-chart-orange-bold-hovered: var(--ds-chart-orange-bold-hovered);
+  --color-ad-chart-orange-bolder: var(--ds-chart-orange-bolder);
+  --color-ad-chart-orange-bolder-hovered: var(--ds-chart-orange-bolder-hovered);
+  --color-ad-chart-orange-boldest: var(--ds-chart-orange-boldest);
+  --color-ad-chart-orange-boldest-hovered: var(--ds-chart-orange-boldest-hovered);
+  --color-ad-chart-purple-bold: var(--ds-chart-purple-bold);
+  --color-ad-chart-purple-bold-hovered: var(--ds-chart-purple-bold-hovered);
+  --color-ad-chart-purple-bolder: var(--ds-chart-purple-bolder);
+  --color-ad-chart-purple-bolder-hovered: var(--ds-chart-purple-bolder-hovered);
+  --color-ad-chart-purple-boldest: var(--ds-chart-purple-boldest);
+  --color-ad-chart-purple-boldest-hovered: var(--ds-chart-purple-boldest-hovered);
+  --color-ad-chart-red-bold: var(--ds-chart-red-bold);
+  --color-ad-chart-red-bold-hovered: var(--ds-chart-red-bold-hovered);
+  --color-ad-chart-red-bolder: var(--ds-chart-red-bolder);
+  --color-ad-chart-red-bolder-hovered: var(--ds-chart-red-bolder-hovered);
+  --color-ad-chart-red-boldest: var(--ds-chart-red-boldest);
+  --color-ad-chart-red-boldest-hovered: var(--ds-chart-red-boldest-hovered);
+  --color-ad-chart-success: var(--ds-chart-success);
+  --color-ad-chart-success-bold: var(--ds-chart-success-bold);
+  --color-ad-chart-success-bold-hovered: var(--ds-chart-success-bold-hovered);
+  --color-ad-chart-success-hovered: var(--ds-chart-success-hovered);
+  --color-ad-chart-teal-bold: var(--ds-chart-teal-bold);
+  --color-ad-chart-teal-bold-hovered: var(--ds-chart-teal-bold-hovered);
+  --color-ad-chart-teal-bolder: var(--ds-chart-teal-bolder);
+  --color-ad-chart-teal-bolder-hovered: var(--ds-chart-teal-bolder-hovered);
+  --color-ad-chart-teal-boldest: var(--ds-chart-teal-boldest);
+  --color-ad-chart-teal-boldest-hovered: var(--ds-chart-teal-boldest-hovered);
+  --color-ad-chart-warning: var(--ds-chart-warning);
+  --color-ad-chart-warning-bold: var(--ds-chart-warning-bold);
+  --color-ad-chart-warning-bold-hovered: var(--ds-chart-warning-bold-hovered);
+  --color-ad-chart-warning-hovered: var(--ds-chart-warning-hovered);
+  --color-ad-chart-yellow-bold: var(--ds-chart-yellow-bold);
+  --color-ad-chart-yellow-bold-hovered: var(--ds-chart-yellow-bold-hovered);
+  --color-ad-chart-yellow-bolder: var(--ds-chart-yellow-bolder);
+  --color-ad-chart-yellow-bolder-hovered: var(--ds-chart-yellow-bolder-hovered);
+  --color-ad-chart-yellow-boldest: var(--ds-chart-yellow-boldest);
+  --color-ad-chart-yellow-boldest-hovered: var(--ds-chart-yellow-boldest-hovered);
+  --color-ad-icon: var(--ds-icon);
+  --color-ad-icon-accent-blue: var(--ds-icon-accent-blue);
+  --color-ad-icon-accent-gray: var(--ds-icon-accent-gray);
+  --color-ad-icon-accent-green: var(--ds-icon-accent-green);
+  --color-ad-icon-accent-lime: var(--ds-icon-accent-lime);
+  --color-ad-icon-accent-magenta: var(--ds-icon-accent-magenta);
+  --color-ad-icon-accent-orange: var(--ds-icon-accent-orange);
+  --color-ad-icon-accent-purple: var(--ds-icon-accent-purple);
+  --color-ad-icon-accent-red: var(--ds-icon-accent-red);
+  --color-ad-icon-accent-teal: var(--ds-icon-accent-teal);
+  --color-ad-icon-accent-yellow: var(--ds-icon-accent-yellow);
+  --color-ad-icon-brand: var(--ds-icon-brand);
+  --color-ad-icon-danger: var(--ds-icon-danger);
+  --color-ad-icon-disabled: var(--ds-icon-disabled);
+  --color-ad-icon-discovery: var(--ds-icon-discovery);
+  --color-ad-icon-information: var(--ds-icon-information);
+  --color-ad-icon-inverse: var(--ds-icon-inverse);
+  --color-ad-icon-selected: var(--ds-icon-selected);
+  --color-ad-icon-subtle: var(--ds-icon-subtle);
+  --color-ad-icon-subtlest: var(--ds-icon-subtlest);
+  --color-ad-icon-success: var(--ds-icon-success);
+  --color-ad-icon-warning: var(--ds-icon-warning);
+  --color-ad-icon-warning-inverse: var(--ds-icon-warning-inverse);
+  --color-ad-interaction-hovered: var(--ds-interaction-hovered);
+  --color-ad-interaction-pressed: var(--ds-interaction-pressed);
+  --color-ad-link: var(--ds-link);
+  --color-ad-link-pressed: var(--ds-link-pressed);
+  --color-ad-link-visited: var(--ds-link-visited);
+  --color-ad-link-visited-pressed: var(--ds-link-visited-pressed);
+  --color-ad-skeleton: var(--ds-skeleton);
+  --color-ad-skeleton-subtle: var(--ds-skeleton-subtle);
+  --color-ad-text: var(--ds-text);
+  --color-ad-text-accent-blue: var(--ds-text-accent-blue);
+  --color-ad-text-accent-blue-bolder: var(--ds-text-accent-blue-bolder);
+  --color-ad-text-accent-gray: var(--ds-text-accent-gray);
+  --color-ad-text-accent-gray-bolder: var(--ds-text-accent-gray-bolder);
+  --color-ad-text-accent-green: var(--ds-text-accent-green);
+  --color-ad-text-accent-green-bolder: var(--ds-text-accent-green-bolder);
+  --color-ad-text-accent-lime: var(--ds-text-accent-lime);
+  --color-ad-text-accent-lime-bolder: var(--ds-text-accent-lime-bolder);
+  --color-ad-text-accent-magenta: var(--ds-text-accent-magenta);
+  --color-ad-text-accent-magenta-bolder: var(--ds-text-accent-magenta-bolder);
+  --color-ad-text-accent-orange: var(--ds-text-accent-orange);
+  --color-ad-text-accent-orange-bolder: var(--ds-text-accent-orange-bolder);
+  --color-ad-text-accent-purple: var(--ds-text-accent-purple);
+  --color-ad-text-accent-purple-bolder: var(--ds-text-accent-purple-bolder);
+  --color-ad-text-accent-red: var(--ds-text-accent-red);
+  --color-ad-text-accent-red-bolder: var(--ds-text-accent-red-bolder);
+  --color-ad-text-accent-teal: var(--ds-text-accent-teal);
+  --color-ad-text-accent-teal-bolder: var(--ds-text-accent-teal-bolder);
+  --color-ad-text-accent-yellow: var(--ds-text-accent-yellow);
+  --color-ad-text-accent-yellow-bolder: var(--ds-text-accent-yellow-bolder);
+  --color-ad-text-brand: var(--ds-text-brand);
+  --color-ad-text-danger: var(--ds-text-danger);
+  --color-ad-text-danger-bolder: var(--ds-text-danger-bolder);
+  --color-ad-text-disabled: var(--ds-text-disabled);
+  --color-ad-text-discovery: var(--ds-text-discovery);
+  --color-ad-text-discovery-bolder: var(--ds-text-discovery-bolder);
+  --color-ad-text-information: var(--ds-text-information);
+  --color-ad-text-information-bolder: var(--ds-text-information-bolder);
+  --color-ad-text-inverse: var(--ds-text-inverse);
+  --color-ad-text-selected: var(--ds-text-selected);
+  --color-ad-text-subtle: var(--ds-text-subtle);
+  --color-ad-text-subtlest: var(--ds-text-subtlest);
+  --color-ad-text-success: var(--ds-text-success);
+  --color-ad-text-success-bolder: var(--ds-text-success-bolder);
+  --color-ad-text-warning: var(--ds-text-warning);
+  --color-ad-text-warning-bolder: var(--ds-text-warning-bolder);
+  --color-ad-text-warning-inverse: var(--ds-text-warning-inverse);
+  --shadow-ad-overflow: var(--ds-shadow-overflow);
+  --shadow-ad-overflow-perimeter: var(--ds-shadow-overflow-perimeter);
+  --shadow-ad-overflow-spread: var(--ds-shadow-overflow-spread);
+  --shadow-ad-overlay: var(--ds-shadow-overlay);
+  --shadow-ad-raised: var(--ds-shadow-raised);
+  --shadow-ad-surface: var(--ds-surface);
+  --shadow-ad-surface-hovered: var(--ds-surface-hovered);
+  --shadow-ad-surface-overlay: var(--ds-surface-overlay);
+  --shadow-ad-surface-overlay-hovered: var(--ds-surface-overlay-hovered);
+  --shadow-ad-surface-overlay-pressed: var(--ds-surface-overlay-pressed);
+  --shadow-ad-surface-pressed: var(--ds-surface-pressed);
+  --shadow-ad-surface-raised: var(--ds-surface-raised);
+  --shadow-ad-surface-raised-hovered: var(--ds-surface-raised-hovered);
+  --shadow-ad-surface-raised-pressed: var(--ds-surface-raised-pressed);
+  --shadow-ad-surface-sunken: var(--ds-surface-sunken);
+  --font-ad-body: var(--ds-font-body);
+  --font-ad-body-large: var(--ds-font-body-large);
+  --font-ad-body-small: var(--ds-font-body-small);
+  --font-ad-body-UNSAFE_small: var(--ds-font-body-UNSAFE_small);
+  --font-ad-code: var(--ds-font-code);
+  --font-ad-family-body: var(--ds-font-family-body);
+  --font-ad-family-brand-body: var(--ds-font-family-brand-body);
+  --font-ad-family-brand-heading: var(--ds-font-family-brand-heading);
+  --font-ad-family-code: var(--ds-font-family-code);
+  --font-ad-family-heading: var(--ds-font-family-heading);
+  --font-ad-heading-large: var(--ds-font-heading-large);
+  --font-ad-heading-medium: var(--ds-font-heading-medium);
+  --font-ad-heading-small: var(--ds-font-heading-small);
+  --font-ad-heading-xlarge: var(--ds-font-heading-xlarge);
+  --font-ad-heading-xsmall: var(--ds-font-heading-xsmall);
+  --font-ad-heading-xxlarge: var(--ds-font-heading-xxlarge);
+  --font-ad-heading-xxsmall: var(--ds-font-heading-xxsmall);
+  --font-ad-metric-large: var(--ds-font-metric-large);
+  --font-ad-metric-medium: var(--ds-font-metric-medium);
+  --font-ad-metric-small: var(--ds-font-metric-small);
+  --font-ad-weight-bold: var(--ds-font-weight-bold);
+  --font-ad-weight-medium: var(--ds-font-weight-medium);
+  --font-ad-weight-regular: var(--ds-font-weight-regular);
+  --font-ad-weight-semibold: var(--ds-font-weight-semibold);
 }
 /* <token-theme:end> */
