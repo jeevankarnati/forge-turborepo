@@ -8,11 +8,13 @@
     "dev": "forge tunnel"
   },
   "dependencies": {
-    "@forge/resolver": "1.7.1",
-    "@narthia/jira-client": "^0.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@forge/api": "^7.1.1",
+    "@forge/bridge": "^5.14.1",
+    "@forge/resolver": "^1.7.1",
+    "@narthia/jira-client": "^0.4.0",
+    "@repo/typescript-config": "*",
+    "@toolsplus/forge-trpc-adapter": "^1.2.0",
+    "@trpc/server": "^11.16.0",
+    "superjson": "^2.2.6"
   }
 }

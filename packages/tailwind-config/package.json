@@ -11,6 +11,7 @@
     "generate:atlaskit-css": "bun run ./token-script.ts"
   },
   "dependencies": {
+    "@repo/typescript-config": "*",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {

@@ -1,0 +1,19 @@
+{
+  "name": "@repo/trpc-react",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@repo/typescript-config": "*",
+    "@tanstack/react-query": "^5.95.2",
+    "@toolsplus/forge-trpc-link": "^1.2.0",
+    "@trpc/react-query": "^11.16.0",
+    "superjson": "^2.2.6"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.95.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}
