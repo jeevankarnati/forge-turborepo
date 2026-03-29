@@ -9,19 +9,11 @@
   --color-ad-background-accent-blue-subtle-hovered: var(--ds-background-accent-blue-subtle-hovered);
   --color-ad-background-accent-blue-subtle-pressed: var(--ds-background-accent-blue-subtle-pressed);
   --color-ad-background-accent-blue-subtler: var(--ds-background-accent-blue-subtler);
-  --color-ad-background-accent-blue-subtler-hovered: var(
-    --ds-background-accent-blue-subtler-hovered
-  );
-  --color-ad-background-accent-blue-subtler-pressed: var(
-    --ds-background-accent-blue-subtler-pressed
-  );
+  --color-ad-background-accent-blue-subtler-hovered: var(--ds-background-accent-blue-subtler-hovered);
+  --color-ad-background-accent-blue-subtler-pressed: var(--ds-background-accent-blue-subtler-pressed);
   --color-ad-background-accent-blue-subtlest: var(--ds-background-accent-blue-subtlest);
-  --color-ad-background-accent-blue-subtlest-hovered: var(
-    --ds-background-accent-blue-subtlest-hovered
-  );
-  --color-ad-background-accent-blue-subtlest-pressed: var(
-    --ds-background-accent-blue-subtlest-pressed
-  );
+  --color-ad-background-accent-blue-subtlest-hovered: var(--ds-background-accent-blue-subtlest-hovered);
+  --color-ad-background-accent-blue-subtlest-pressed: var(--ds-background-accent-blue-subtlest-pressed);
   --color-ad-background-accent-gray-bolder: var(--ds-background-accent-gray-bolder);
   --color-ad-background-accent-gray-bolder-hovered: var(--ds-background-accent-gray-bolder-hovered);
   --color-ad-background-accent-gray-bolder-pressed: var(--ds-background-accent-gray-bolder-pressed);
@@ -29,47 +21,23 @@
   --color-ad-background-accent-gray-subtle-hovered: var(--ds-background-accent-gray-subtle-hovered);
   --color-ad-background-accent-gray-subtle-pressed: var(--ds-background-accent-gray-subtle-pressed);
   --color-ad-background-accent-gray-subtler: var(--ds-background-accent-gray-subtler);
-  --color-ad-background-accent-gray-subtler-hovered: var(
-    --ds-background-accent-gray-subtler-hovered
-  );
-  --color-ad-background-accent-gray-subtler-pressed: var(
-    --ds-background-accent-gray-subtler-pressed
-  );
+  --color-ad-background-accent-gray-subtler-hovered: var(--ds-background-accent-gray-subtler-hovered);
+  --color-ad-background-accent-gray-subtler-pressed: var(--ds-background-accent-gray-subtler-pressed);
   --color-ad-background-accent-gray-subtlest: var(--ds-background-accent-gray-subtlest);
-  --color-ad-background-accent-gray-subtlest-hovered: var(
-    --ds-background-accent-gray-subtlest-hovered
-  );
-  --color-ad-background-accent-gray-subtlest-pressed: var(
-    --ds-background-accent-gray-subtlest-pressed
-  );
+  --color-ad-background-accent-gray-subtlest-hovered: var(--ds-background-accent-gray-subtlest-hovered);
+  --color-ad-background-accent-gray-subtlest-pressed: var(--ds-background-accent-gray-subtlest-pressed);
   --color-ad-background-accent-green-bolder: var(--ds-background-accent-green-bolder);
-  --color-ad-background-accent-green-bolder-hovered: var(
-    --ds-background-accent-green-bolder-hovered
-  );
-  --color-ad-background-accent-green-bolder-pressed: var(
-    --ds-background-accent-green-bolder-pressed
-  );
+  --color-ad-background-accent-green-bolder-hovered: var(--ds-background-accent-green-bolder-hovered);
+  --color-ad-background-accent-green-bolder-pressed: var(--ds-background-accent-green-bolder-pressed);
   --color-ad-background-accent-green-subtle: var(--ds-background-accent-green-subtle);
-  --color-ad-background-accent-green-subtle-hovered: var(
-    --ds-background-accent-green-subtle-hovered
-  );
-  --color-ad-background-accent-green-subtle-pressed: var(
-    --ds-background-accent-green-subtle-pressed
-  );
+  --color-ad-background-accent-green-subtle-hovered: var(--ds-background-accent-green-subtle-hovered);
+  --color-ad-background-accent-green-subtle-pressed: var(--ds-background-accent-green-subtle-pressed);
   --color-ad-background-accent-green-subtler: var(--ds-background-accent-green-subtler);
-  --color-ad-background-accent-green-subtler-hovered: var(
-    --ds-background-accent-green-subtler-hovered
-  );
-  --color-ad-background-accent-green-subtler-pressed: var(
-    --ds-background-accent-green-subtler-pressed
-  );
+  --color-ad-background-accent-green-subtler-hovered: var(--ds-background-accent-green-subtler-hovered);
+  --color-ad-background-accent-green-subtler-pressed: var(--ds-background-accent-green-subtler-pressed);
   --color-ad-background-accent-green-subtlest: var(--ds-background-accent-green-subtlest);
-  --color-ad-background-accent-green-subtlest-hovered: var(
-    --ds-background-accent-green-subtlest-hovered
-  );
-  --color-ad-background-accent-green-subtlest-pressed: var(
-    --ds-background-accent-green-subtlest-pressed
-  );
+  --color-ad-background-accent-green-subtlest-hovered: var(--ds-background-accent-green-subtlest-hovered);
+  --color-ad-background-accent-green-subtlest-pressed: var(--ds-background-accent-green-subtlest-pressed);
   --color-ad-background-accent-lime-bolder: var(--ds-background-accent-lime-bolder);
   --color-ad-background-accent-lime-bolder-hovered: var(--ds-background-accent-lime-bolder-hovered);
   --color-ad-background-accent-lime-bolder-pressed: var(--ds-background-accent-lime-bolder-pressed);
@@ -77,103 +45,47 @@
   --color-ad-background-accent-lime-subtle-hovered: var(--ds-background-accent-lime-subtle-hovered);
   --color-ad-background-accent-lime-subtle-pressed: var(--ds-background-accent-lime-subtle-pressed);
   --color-ad-background-accent-lime-subtler: var(--ds-background-accent-lime-subtler);
-  --color-ad-background-accent-lime-subtler-hovered: var(
-    --ds-background-accent-lime-subtler-hovered
-  );
-  --color-ad-background-accent-lime-subtler-pressed: var(
-    --ds-background-accent-lime-subtler-pressed
-  );
+  --color-ad-background-accent-lime-subtler-hovered: var(--ds-background-accent-lime-subtler-hovered);
+  --color-ad-background-accent-lime-subtler-pressed: var(--ds-background-accent-lime-subtler-pressed);
   --color-ad-background-accent-lime-subtlest: var(--ds-background-accent-lime-subtlest);
-  --color-ad-background-accent-lime-subtlest-hovered: var(
-    --ds-background-accent-lime-subtlest-hovered
-  );
-  --color-ad-background-accent-lime-subtlest-pressed: var(
-    --ds-background-accent-lime-subtlest-pressed
-  );
+  --color-ad-background-accent-lime-subtlest-hovered: var(--ds-background-accent-lime-subtlest-hovered);
+  --color-ad-background-accent-lime-subtlest-pressed: var(--ds-background-accent-lime-subtlest-pressed);
   --color-ad-background-accent-magenta-bolder: var(--ds-background-accent-magenta-bolder);
-  --color-ad-background-accent-magenta-bolder-hovered: var(
-    --ds-background-accent-magenta-bolder-hovered
-  );
-  --color-ad-background-accent-magenta-bolder-pressed: var(
-    --ds-background-accent-magenta-bolder-pressed
-  );
+  --color-ad-background-accent-magenta-bolder-hovered: var(--ds-background-accent-magenta-bolder-hovered);
+  --color-ad-background-accent-magenta-bolder-pressed: var(--ds-background-accent-magenta-bolder-pressed);
   --color-ad-background-accent-magenta-subtle: var(--ds-background-accent-magenta-subtle);
-  --color-ad-background-accent-magenta-subtle-hovered: var(
-    --ds-background-accent-magenta-subtle-hovered
-  );
-  --color-ad-background-accent-magenta-subtle-pressed: var(
-    --ds-background-accent-magenta-subtle-pressed
-  );
+  --color-ad-background-accent-magenta-subtle-hovered: var(--ds-background-accent-magenta-subtle-hovered);
+  --color-ad-background-accent-magenta-subtle-pressed: var(--ds-background-accent-magenta-subtle-pressed);
   --color-ad-background-accent-magenta-subtler: var(--ds-background-accent-magenta-subtler);
-  --color-ad-background-accent-magenta-subtler-hovered: var(
-    --ds-background-accent-magenta-subtler-hovered
-  );
-  --color-ad-background-accent-magenta-subtler-pressed: var(
-    --ds-background-accent-magenta-subtler-pressed
-  );
+  --color-ad-background-accent-magenta-subtler-hovered: var(--ds-background-accent-magenta-subtler-hovered);
+  --color-ad-background-accent-magenta-subtler-pressed: var(--ds-background-accent-magenta-subtler-pressed);
   --color-ad-background-accent-magenta-subtlest: var(--ds-background-accent-magenta-subtlest);
-  --color-ad-background-accent-magenta-subtlest-hovered: var(
-    --ds-background-accent-magenta-subtlest-hovered
-  );
-  --color-ad-background-accent-magenta-subtlest-pressed: var(
-    --ds-background-accent-magenta-subtlest-pressed
-  );
+  --color-ad-background-accent-magenta-subtlest-hovered: var(--ds-background-accent-magenta-subtlest-hovered);
+  --color-ad-background-accent-magenta-subtlest-pressed: var(--ds-background-accent-magenta-subtlest-pressed);
   --color-ad-background-accent-orange-bolder: var(--ds-background-accent-orange-bolder);
-  --color-ad-background-accent-orange-bolder-hovered: var(
-    --ds-background-accent-orange-bolder-hovered
-  );
-  --color-ad-background-accent-orange-bolder-pressed: var(
-    --ds-background-accent-orange-bolder-pressed
-  );
+  --color-ad-background-accent-orange-bolder-hovered: var(--ds-background-accent-orange-bolder-hovered);
+  --color-ad-background-accent-orange-bolder-pressed: var(--ds-background-accent-orange-bolder-pressed);
   --color-ad-background-accent-orange-subtle: var(--ds-background-accent-orange-subtle);
-  --color-ad-background-accent-orange-subtle-hovered: var(
-    --ds-background-accent-orange-subtle-hovered
-  );
-  --color-ad-background-accent-orange-subtle-pressed: var(
-    --ds-background-accent-orange-subtle-pressed
-  );
+  --color-ad-background-accent-orange-subtle-hovered: var(--ds-background-accent-orange-subtle-hovered);
+  --color-ad-background-accent-orange-subtle-pressed: var(--ds-background-accent-orange-subtle-pressed);
   --color-ad-background-accent-orange-subtler: var(--ds-background-accent-orange-subtler);
-  --color-ad-background-accent-orange-subtler-hovered: var(
-    --ds-background-accent-orange-subtler-hovered
-  );
-  --color-ad-background-accent-orange-subtler-pressed: var(
-    --ds-background-accent-orange-subtler-pressed
-  );
+  --color-ad-background-accent-orange-subtler-hovered: var(--ds-background-accent-orange-subtler-hovered);
+  --color-ad-background-accent-orange-subtler-pressed: var(--ds-background-accent-orange-subtler-pressed);
   --color-ad-background-accent-orange-subtlest: var(--ds-background-accent-orange-subtlest);
-  --color-ad-background-accent-orange-subtlest-hovered: var(
-    --ds-background-accent-orange-subtlest-hovered
-  );
-  --color-ad-background-accent-orange-subtlest-pressed: var(
-    --ds-background-accent-orange-subtlest-pressed
-  );
+  --color-ad-background-accent-orange-subtlest-hovered: var(--ds-background-accent-orange-subtlest-hovered);
+  --color-ad-background-accent-orange-subtlest-pressed: var(--ds-background-accent-orange-subtlest-pressed);
   --color-ad-background-accent-purple-bolder: var(--ds-background-accent-purple-bolder);
-  --color-ad-background-accent-purple-bolder-hovered: var(
-    --ds-background-accent-purple-bolder-hovered
-  );
-  --color-ad-background-accent-purple-bolder-pressed: var(
-    --ds-background-accent-purple-bolder-pressed
-  );
+  --color-ad-background-accent-purple-bolder-hovered: var(--ds-background-accent-purple-bolder-hovered);
+  --color-ad-background-accent-purple-bolder-pressed: var(--ds-background-accent-purple-bolder-pressed);
   --color-ad-background-accent-purple-subtle: var(--ds-background-accent-purple-subtle);
-  --color-ad-background-accent-purple-subtle-hovered: var(
-    --ds-background-accent-purple-subtle-hovered
-  );
-  --color-ad-background-accent-purple-subtle-pressed: var(
-    --ds-background-accent-purple-subtle-pressed
-  );
+  --color-ad-background-accent-purple-subtle-hovered: var(--ds-background-accent-purple-subtle-hovered);
+  --color-ad-background-accent-purple-subtle-pressed: var(--ds-background-accent-purple-subtle-pressed);
   --color-ad-background-accent-purple-subtler: var(--ds-background-accent-purple-subtler);
-  --color-ad-background-accent-purple-subtler-hovered: var(
-    --ds-background-accent-purple-subtler-hovered
-  );
-  --color-ad-background-accent-purple-subtler-pressed: var(
-    --ds-background-accent-purple-subtler-pressed
-  );
+  --color-ad-background-accent-purple-subtler-hovered: var(--ds-background-accent-purple-subtler-hovered);
+  --color-ad-background-accent-purple-subtler-pressed: var(--ds-background-accent-purple-subtler-pressed);
   --color-ad-background-accent-purple-subtlest: var(--ds-background-accent-purple-subtlest);
-  --color-ad-background-accent-purple-subtlest-hovered: var(
-    --ds-background-accent-purple-subtlest-hovered
-  );
-  --color-ad-background-accent-purple-subtlest-pressed: var(
-    --ds-background-accent-purple-subtlest-pressed
-  );
+  --color-ad-background-accent-purple-subtlest-hovered: var(--ds-background-accent-purple-subtlest-hovered);
+  --color-ad-background-accent-purple-subtlest-pressed: var(--ds-background-accent-purple-subtlest-pressed);
   --color-ad-background-accent-red-bolder: var(--ds-background-accent-red-bolder);
   --color-ad-background-accent-red-bolder-hovered: var(--ds-background-accent-red-bolder-hovered);
   --color-ad-background-accent-red-bolder-pressed: var(--ds-background-accent-red-bolder-pressed);
@@ -184,12 +96,8 @@
   --color-ad-background-accent-red-subtler-hovered: var(--ds-background-accent-red-subtler-hovered);
   --color-ad-background-accent-red-subtler-pressed: var(--ds-background-accent-red-subtler-pressed);
   --color-ad-background-accent-red-subtlest: var(--ds-background-accent-red-subtlest);
-  --color-ad-background-accent-red-subtlest-hovered: var(
-    --ds-background-accent-red-subtlest-hovered
-  );
-  --color-ad-background-accent-red-subtlest-pressed: var(
-    --ds-background-accent-red-subtlest-pressed
-  );
+  --color-ad-background-accent-red-subtlest-hovered: var(--ds-background-accent-red-subtlest-hovered);
+  --color-ad-background-accent-red-subtlest-pressed: var(--ds-background-accent-red-subtlest-pressed);
   --color-ad-background-accent-teal-bolder: var(--ds-background-accent-teal-bolder);
   --color-ad-background-accent-teal-bolder-hovered: var(--ds-background-accent-teal-bolder-hovered);
   --color-ad-background-accent-teal-bolder-pressed: var(--ds-background-accent-teal-bolder-pressed);
@@ -197,47 +105,23 @@
   --color-ad-background-accent-teal-subtle-hovered: var(--ds-background-accent-teal-subtle-hovered);
   --color-ad-background-accent-teal-subtle-pressed: var(--ds-background-accent-teal-subtle-pressed);
   --color-ad-background-accent-teal-subtler: var(--ds-background-accent-teal-subtler);
-  --color-ad-background-accent-teal-subtler-hovered: var(
-    --ds-background-accent-teal-subtler-hovered
-  );
-  --color-ad-background-accent-teal-subtler-pressed: var(
-    --ds-background-accent-teal-subtler-pressed
-  );
+  --color-ad-background-accent-teal-subtler-hovered: var(--ds-background-accent-teal-subtler-hovered);
+  --color-ad-background-accent-teal-subtler-pressed: var(--ds-background-accent-teal-subtler-pressed);
   --color-ad-background-accent-teal-subtlest: var(--ds-background-accent-teal-subtlest);
-  --color-ad-background-accent-teal-subtlest-hovered: var(
-    --ds-background-accent-teal-subtlest-hovered
-  );
-  --color-ad-background-accent-teal-subtlest-pressed: var(
-    --ds-background-accent-teal-subtlest-pressed
-  );
+  --color-ad-background-accent-teal-subtlest-hovered: var(--ds-background-accent-teal-subtlest-hovered);
+  --color-ad-background-accent-teal-subtlest-pressed: var(--ds-background-accent-teal-subtlest-pressed);
   --color-ad-background-accent-yellow-bolder: var(--ds-background-accent-yellow-bolder);
-  --color-ad-background-accent-yellow-bolder-hovered: var(
-    --ds-background-accent-yellow-bolder-hovered
-  );
-  --color-ad-background-accent-yellow-bolder-pressed: var(
-    --ds-background-accent-yellow-bolder-pressed
-  );
+  --color-ad-background-accent-yellow-bolder-hovered: var(--ds-background-accent-yellow-bolder-hovered);
+  --color-ad-background-accent-yellow-bolder-pressed: var(--ds-background-accent-yellow-bolder-pressed);
   --color-ad-background-accent-yellow-subtle: var(--ds-background-accent-yellow-subtle);
-  --color-ad-background-accent-yellow-subtle-hovered: var(
-    --ds-background-accent-yellow-subtle-hovered
-  );
-  --color-ad-background-accent-yellow-subtle-pressed: var(
-    --ds-background-accent-yellow-subtle-pressed
-  );
+  --color-ad-background-accent-yellow-subtle-hovered: var(--ds-background-accent-yellow-subtle-hovered);
+  --color-ad-background-accent-yellow-subtle-pressed: var(--ds-background-accent-yellow-subtle-pressed);
   --color-ad-background-accent-yellow-subtler: var(--ds-background-accent-yellow-subtler);
-  --color-ad-background-accent-yellow-subtler-hovered: var(
-    --ds-background-accent-yellow-subtler-hovered
-  );
-  --color-ad-background-accent-yellow-subtler-pressed: var(
-    --ds-background-accent-yellow-subtler-pressed
-  );
+  --color-ad-background-accent-yellow-subtler-hovered: var(--ds-background-accent-yellow-subtler-hovered);
+  --color-ad-background-accent-yellow-subtler-pressed: var(--ds-background-accent-yellow-subtler-pressed);
   --color-ad-background-accent-yellow-subtlest: var(--ds-background-accent-yellow-subtlest);
-  --color-ad-background-accent-yellow-subtlest-hovered: var(
-    --ds-background-accent-yellow-subtlest-hovered
-  );
-  --color-ad-background-accent-yellow-subtlest-pressed: var(
-    --ds-background-accent-yellow-subtlest-pressed
-  );
+  --color-ad-background-accent-yellow-subtlest-hovered: var(--ds-background-accent-yellow-subtlest-hovered);
+  --color-ad-background-accent-yellow-subtlest-pressed: var(--ds-background-accent-yellow-subtlest-pressed);
   --color-ad-background-brand-bold: var(--ds-background-brand-bold);
   --color-ad-background-brand-bold-hovered: var(--ds-background-brand-bold-hovered);
   --color-ad-background-brand-bold-pressed: var(--ds-background-brand-bold-pressed);
@@ -273,12 +157,8 @@
   --color-ad-background-information-hovered: var(--ds-background-information-hovered);
   --color-ad-background-information-pressed: var(--ds-background-information-pressed);
   --color-ad-background-information-subtler: var(--ds-background-information-subtler);
-  --color-ad-background-information-subtler-hovered: var(
-    --ds-background-information-subtler-hovered
-  );
-  --color-ad-background-information-subtler-pressed: var(
-    --ds-background-information-subtler-pressed
-  );
+  --color-ad-background-information-subtler-hovered: var(--ds-background-information-subtler-hovered);
+  --color-ad-background-information-subtler-pressed: var(--ds-background-information-subtler-pressed);
   --color-ad-background-input: var(--ds-background-input);
   --color-ad-background-input-hovered: var(--ds-background-input-hovered);
   --color-ad-background-input-pressed: var(--ds-background-input-pressed);

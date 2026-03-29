@@ -10,28 +10,6 @@
       "cache": false,
       "persistent": true
     },
-    "forge-register": {
-      "dependsOn": ["^forge-register"],
-      "cache": false,
-      "interactive": true,
-      "persistent": true
-    },
-    "forge-deploy": {
-      "dependsOn": ["^forge-deploy"],
-      "cache": false
-    },
-    "forge-install": {
-      "dependsOn": ["^forge-install"],
-      "cache": false,
-      "interactive": true,
-      "persistent": true
-    },
-    "forge-install:upgrade": {
-      "dependsOn": ["^forge-install:upgrade"],
-      "cache": false,
-      "interactive": true,
-      "persistent": true
-    },
     "//#quality": {},
     "//#quality:fix": {
       "cache": false
