@@ -1,5 +1,5 @@
 import { type FullContext } from "@forge/bridge";
-import { CreateForgeContextOptions } from "@toolsplus/forge-trpc-adapter";
+import type { CreateForgeContextOptions } from "@toolsplus/forge-trpc-adapter";
 import { initTRPC } from "@trpc/server";
 import superjson from "superjson";
 

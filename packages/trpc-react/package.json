@@ -4,6 +4,10 @@
   "private": true,
   "license": "MIT",
   "type": "module",
+  "exports": {
+    "./trpc": "./src/trpc.ts",
+    "./providers": "./src/providers.tsx"
+  },
   "dependencies": {
     "@repo/typescript-config": "*",
     "@tanstack/react-query": "^5.95.2",

@@ -1,5 +1,5 @@
 import { view } from "@forge/bridge";
-import { StrictMode } from "react";
+import Providers from "@repo/trpc-react/providers";
 import { createRoot } from "react-dom/client";
 import App from "./app.tsx";
 import "./index.css";
@@ -7,7 +7,7 @@ import "./index.css";
 void view.theme.enable();
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
+  <Providers>
     <App />
-  </StrictMode>
+  </Providers>
 );

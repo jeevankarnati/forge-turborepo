@@ -1,16 +1,16 @@
-// import { customUiBridgeLink } from "@toolsplus/forge-trpc-link";
-// import { type CreateTRPCReact, createTRPCReact } from "@trpc/react-query";
-// import superjson from "superjson";
-// import { type TrpcRouter } from "../../../apps/main/src/routers/index";
+/* oxlint-disable triple-slash-reference */
+/// <reference path="../types/global.d.ts" />
 
-// export const trpcReact: CreateTRPCReact<TrpcRouter, unknown> = createTRPCReact<TrpcRouter>();
-// export const trpcReactClient = trpcReact.createClient({
-//   links: [
-//     customUiBridgeLink({
-//       resolverFunctionKey: "trpc-forge-turborepo",
-//       transformer: superjson,
-//     }),
-//   ],
-// });
+import { customUiBridgeLink } from "@toolsplus/forge-trpc-link";
+import { createTRPCReact } from "@trpc/react-query";
+import superjson from "superjson";
 
-export const test = "";
+export const trpc = createTRPCReact<AppRouter>();
+export const trpcClient = trpc.createClient({
+  links: [
+    customUiBridgeLink({
+      resolverFunctionKey: "trpc-forge-turborepo",
+      transformer: superjson,
+    }),
+  ],
+});
